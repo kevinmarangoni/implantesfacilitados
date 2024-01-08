@@ -8,7 +8,7 @@ const Hero:React.FC<{t: TranslationObject}> = ({t}) => {
   return (
     <>
       <div>Hero</div>
-      <IllustrationSection><DentistIllustration /></IllustrationSection>
+      {/* <IllustrationSection><DentistIllustration /></IllustrationSection> */}
     </>
   )
   
