@@ -1,0 +1,132 @@
+{
+    "global": {
+        "whatsapp_number": "(11) 96671-7274"
+    },
+    "header": {
+        "menu": {
+            "about": "Sobre",
+            "treatment": "Tratamento",
+            "schedule": "Agendar",
+            "contact": "Contato",
+            "map": "Localização"
+        },
+        "button": "AGENDE SUA CONSULTA"
+    },
+    "hero": {
+        "title": "Endodontia Microscópica, Clínica e Cirúrgica.",
+        "description": {
+            "part1": "Somos referência em",
+            "part2": "Tratamento de Canal Sem Dor.",
+            "part3": "Acabe com a dor e o desconforto de canal. Nosso atendimento de endodontia é rápido, indolor e sem estresse."
+        },
+        "button": "Marque sua consulta!"
+    },
+    "treatment": {
+        "title": "Tratamentos:",
+        "text": "Com a Endodontia Facilitada, você pode confiar que receberá a indicação ideal para realizar seu tratamento com qualidade e cuidados excepcionais para sua saúde bucal.",
+        "cards": [
+            {
+                "icon": "",
+                "title": "Atendimento de Urgência",
+                "text": "Situações de dor ou lesão dental que requerem atenção imediata",
+                "button": "Saiba mais"
+            },
+            {
+                "icon": "",
+                "title": "Endodontia",
+                "text": "Tratamento das estruturas internas dos dentes, incluindo nervos e vasos sanguíneos. Tratamento de canal.",
+                "button": "Saiba mais"
+            },
+            {
+                "icon": "",
+                "title": "Check-Up Odontológico Digital",
+                "text": "Exame de imagem realizado com Raio-x Digital. Com auxílio microscópio de alta definição capaz de captar e aumentar em até 40 vezes o tamanho do dente.",
+                "button": "Saiba mais"
+            },
+            {
+                "icon": "",
+                "title": "Prevenção Oral",
+                "text": "Conjunto de medidas visando preservar a saúde bucal, evitando ou minimizando a incidência de doenças e problemas dentais.",
+                "button": "Saiba mais"
+            }
+        ]
+    },
+    "about_us": {
+        "title": {
+            "sub": "Conheça um pouco mais",
+            "big": "Sobre nós:"
+        },
+        "text": {
+            "first": "A Endodontia Facilitada, clínica de endodontia na região do ABC é especializada no tratamento de canal, atuando com o que há de mais moderno na odontologia, utilizando as técnicas mais avançadas em endodontia. Com o uso do MICROSCÓPIO o especialista em canal garante um tratamento mais preciso e eficiente, evitando possíveis complicações no futuro.",
+            "second": "Além disso, a clínica conta com profissionais capacitados e experientes em endodontia microscópica, clínica e cirúrgica. Garantindo um atendimento humanizado de excelência. Se você busca realizar tratamento de canal de qualidade, a endodontia facilitada é uma excelente opção."
+        },
+        "button": "Agende já sua Consulta"
+    },
+    "benefits": {
+        "title": "Benefícios:",
+        "cards": [
+            {
+                "icon": "",
+                "title": "Espaço confortável",
+                "text": "Conforto e ambiente climatizado c/ tv para oferecer ao paciente uma experiência agradável durante o tratamento."
+            },
+            {
+                "icon": "",
+                "title": "Procedimentos indolores",
+                "text": "Atuamos com o que há de mais moderno na odontologia."
+            },
+            {
+                "icon": "",
+                "title": "Equipe altamente qualificada",
+                "text": "Especialistas, Mestres e Doutores."
+            },
+            {
+                "icon": "",
+                "title": "Atendimento personalizado",
+                "text": "Existem vários tipos de pacientes, mas todos têm um desejo em comum: eles querem ser especiais."
+            }
+        ],
+        "button": "Venha se tratar conosco!"
+    },
+    "testimony": {
+        "title": "Depoimentos",
+        "description": "Veja o que nossos clientes dizem sobre nós.",
+        "excellent": "Excelente",
+        "reviews_at": "resenhas no",
+        "button": "Já se consultou? Nos Avalie!"
+    },
+    "schedule": {
+        "title": "Clique no botão abaixo e agende agora seu horário!",
+        "description": "Comece o caminho para um sorriso mais feliz e saudável!",
+        "button": "Agende sua consulta hoje mesmo sem compromisso"
+    },
+    "map": {
+        "title": "Venha se surpreender.",
+        "address": "R. Frei Gaspar, 941 – Centro, São Bernardo do Campo – SP, 09720-440",
+        "button": "Agende sua consulta conosco!"
+    },
+    "footer": {
+        "working": {
+            "title": "Horário de Atendimento",
+            "times": [
+                "Segunda – Sexta: 9:00 as 19:00",
+                "Sábado – 9:00 as 13:00"
+            ]
+        },
+        "contact": [
+            {"icon":"", "text": "(11) 4129-2073"},
+            {"icon":"", "text": "(11) 96671-7274"},
+            {"icon":"", "text": "endodontiafacilitada@gmail.com"}
+        ],
+        "social":{
+            "title": "Nossas redes sociais:",
+            "apps":[
+                {"icon":"", "name": "instagram", "link":"https://instagram.com/endodontiafacilitada?igshid=Mzc1MmZhNjY=%20%20"},
+                {"icon":"", "name": "facebook", "link":"https://www.facebook.com/endodontiafacilitada?mibextid=LQQJ4d%20"},
+                {"icon":"", "name": "whatsapp", "link":"https://wa.link/5evhq7"}
+            ]
+        },
+        "rights": "Copyright 2023 © Endodontia Facilitada-  Todos os direitos reservados.",
+        "made_by": "Feito por"
+    }
+}

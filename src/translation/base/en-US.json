@@ -1,0 +1,132 @@
+{
+    "global": {
+        "whatsapp_number": "(11) 96671-7274"
+    },
+    "header": {
+        "menu": {
+            "about": "About",
+            "treatment": "Treatment",
+            "schedule": "Schedule",
+            "contact": "Contact",
+            "map": "Location"
+        },
+        "button": "SCHEDULE YOUR APPOINTMENT"
+    },
+    "hero": {
+        "title": "Microscopic, Clinical, and Surgical Endodontics.",
+        "description": {
+            "part1": "We are a reference in",
+            "part2": "Pain-Free Root Canal Treatment.",
+            "part3": "Put an end to the pain and discomfort of root canals. Our endodontic care is quick, painless, and stress-free."
+        },
+        "button": "Schedule your appointment!"
+    },
+    "treatment": {
+        "title": "Treatments:",
+        "text": "With Endodontia Facilitada, you can trust that you will receive the ideal recommendation for your treatment with quality and exceptional care for your oral health.",
+        "cards": [
+            {
+                "icon": "",
+                "title": "Emergency Care",
+                "text": "Immediate attention for situations of pain or dental injury.",
+                "button": "Learn more"
+            },
+            {
+                "icon": "",
+                "title": "Endodontics",
+                "text": "Treatment of the internal structures of teeth, including nerves and blood vessels. Root canal treatment.",
+                "button": "Learn more"
+            },
+            {
+                "icon": "",
+                "title": "Digital Dental Check-Up",
+                "text": "Digital X-ray imaging examination. With the aid of a high-definition microscope capable of capturing and magnifying the size of the tooth up to 40 times.",
+                "button": "Learn more"
+            },
+            {
+                "icon": "",
+                "title": "Oral Prevention",
+                "text": "Set of measures aimed at preserving oral health, preventing or minimizing the incidence of dental diseases and problems.",
+                "button": "Learn more"
+            }
+        ]
+    },
+    "about_us": {
+        "title": {
+            "sub": "Learn a little more",
+            "big": "About us:"
+        },
+        "text": {
+            "first": "Endodontia Facilitada, an endodontic clinic in the ABC region, specializes in root canal treatment, working with the latest in dentistry, using the most advanced techniques in endodontics. With the use of the MICROSCOPE, the canal specialist ensures a more precise and efficient treatment, avoiding possible complications in the future.",
+            "second": "In addition, the clinic has trained and experienced professionals in microscopic, clinical, and surgical endodontics. Ensuring excellent, humanized care. If you seek quality root canal treatment, Endodontia Facilitada is an excellent choice."
+        },
+        "button": "Schedule your Consultation now"
+    },
+    "benefits": {
+        "title": "Benefits:",
+        "cards": [
+            {
+                "icon": "",
+                "title": "Comfortable Space",
+                "text": "Comfort and air-conditioned environment with a TV to offer patients a pleasant experience during treatment."
+            },
+            {
+                "icon": "",
+                "title": "Painless Procedures",
+                "text": "We operate with the latest in dentistry."
+            },
+            {
+                "icon": "",
+                "title": "Highly Qualified Team",
+                "text": "Specialists, Masters, and Doctors."
+            },
+            {
+                "icon": "",
+                "title": "Personalized Service",
+                "text": "There are various types of patients, but they all have one common desire: they want to be special."
+            }
+        ],
+        "button": "Come and get treated with us!"
+    },
+    "testimony": {
+        "title": "Testimonials",
+        "description": "See what our clients say about us.",
+        "excellent": "Excellent",
+        "reviews_at": "reviews on",
+        "button": "Have you visited us? Evaluate us!"
+    },
+    "schedule": {
+        "title": "Click the button below and schedule your appointment now!",
+        "description": "Start the path to a happier and healthier smile!",
+        "button": "Schedule your consultation today with no obligation"
+    },
+    "map": {
+        "title": "Come be amazed.",
+        "address": "R. Frei Gaspar, 941 – Centro, São Bernardo do Campo – SP, 09720-440",
+        "button": "Schedule your consultation with us!"
+    },
+    "footer": {
+        "working": {
+            "title": "Opening Hours",
+            "times": [
+                "Monday – Friday: 9:00 am to 7:00 pm",
+                "Saturday – 9:00 am to 1:00 pm"
+            ]
+        },
+        "contact": [
+            {"icon":"", "text": "(11) 4129-2073"},
+            {"icon":"", "text": "(11) 96671-7274"},
+            {"icon":"", "text": "endodontiafacilitada@gmail.com"}
+        ],
+        "social":{
+            "title": "Our Social Media:",
+            "apps":[
+                {"icon":"", "name": "instagram", "link":"https://instagram.com/endodontiafacilitada?igshid=Mzc1MmZhNjY=%20%20"},
+                {"icon":"", "name": "facebook", "link":"https://www.facebook.com/endodontiafacilitada?mibextid=LQQJ4d%20"},
+                {"icon":"", "name": "whatsapp", "link":"https://wa.link/5evhq7"}
+            ]
+        },
+        "rights": "Copyright 2023 © Endodontia Facilitada - All rights reserved.",
+        "made_by": "Made by"
+    }
+}
