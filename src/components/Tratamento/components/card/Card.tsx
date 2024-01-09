@@ -1,10 +1,17 @@
+import DentistIllustration from '@/assets/illustration/dentist';
+import UrgencyIcon from '@/assets/illustration/urgency';
 import React from 'react';
-import styled from 'styled-components';
+import styled,{useTheme} from 'styled-components';
 
-const Card = ({ title, icon, description, button }) => {
+const Card = ({ title, description, button, index}) => {
+
+    const theme = useTheme();
+
+    const iconList = [<UrgencyIcon color={theme.color.font[10]} />, <DentistIllustration />, <DentistIllustration />, <DentistIllustration />,]
+
   return (
     <Container>
-      <Icon>{icon}</Icon>
+      <Icon>{iconList[index]}</Icon>
       <Title>{title}</Title>
       <Description>{description}</Description>
       <Button>{button}</Button>
@@ -13,19 +20,22 @@ const Card = ({ title, icon, description, button }) => {
 };
 
 const Container = styled.section`
-  height: 200px;
-  width: 300px;
+  height: fit-content;
+  min-height: 300px;
+  width: 400px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  background-color: white;
+  background-color: ${({theme})=> theme.color.background[30]};
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
 `;
 
 const Icon = styled.div`
+height: 50px;
+width: 50px;
 `;
 
 const Title = styled.p`

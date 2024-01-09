@@ -43,9 +43,9 @@ display: flex;
 justify-content: center;
 align-items: flex-start;
 
-*{
+/* *{
   border: 1px dashed red;
-}
+} */
 `
 const Content = styled.div`
 

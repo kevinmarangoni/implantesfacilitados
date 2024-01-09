@@ -2,15 +2,19 @@ import styled from 'styled-components'
 import React from 'react'
 
 const Container = styled.div`
-  transform: rotate(180deg);
   height: 100%;
-  width: 100%;
+	width: 100%;
+
+  svg{
+	height: 100%;
+  	width: 100%;
+  }
 `
 
-const UrgencyIllustration = () => {
+const UrgencyIcon = ({color}) => {
   return (
     <Container>
-<svg fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"  
+<svg fill={color ?? `#000`} version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"  
 	 viewBox="0 0 470.693 470.693">
 <g>
 	<g>
@@ -69,4 +73,4 @@ const UrgencyIllustration = () => {
   )
 }
 
-export default UrgencyIllustration
+export default UrgencyIcon

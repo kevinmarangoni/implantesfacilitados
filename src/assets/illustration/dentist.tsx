@@ -2,7 +2,6 @@ import styled from 'styled-components'
 import React from 'react'
 
 const Container = styled.div`
-  transform: rotate(180deg);
   height: 100%;
   width: 100%;
 `
