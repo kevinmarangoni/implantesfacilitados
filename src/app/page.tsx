@@ -4,7 +4,6 @@ import Agende from '@/components/Agende'
 import Beneficios from '@/components/Beneficios'
 import Depoimentos from '@/components/Depoimentos'
 import Footer from '@/components/Footer'
-import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import Mapa from '@/components/Mapa'
 import SobreNos from '@/components/SobreNos'
@@ -20,12 +19,11 @@ export default function Home() {
   return (
     <Container>
       <Content>
-        <Header t={t} />
         <Hero t={t} />
+        <Depoimentos t={t} />
+        <Beneficios t={t} />
         <Tratamento t={t} />
         <SobreNos t={t} />
-        <Beneficios t={t} />
-        <Depoimentos t={t} />
         <Agende t={t} />
         <Mapa t={t} />
         <Footer t={t} />
