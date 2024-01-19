@@ -5,6 +5,7 @@ const sizes: IThemeSizes = {
         paragraph: {
             sm: "12px",
             md: "16px",
+            lg: "20px",
             xl: "24px"
         },
         title: {
@@ -18,8 +19,15 @@ const sizes: IThemeSizes = {
             xl: "8px"
         },
     },
+    weights: {
+        light: 300,
+        normal: 400,
+        regular: 500,
+        bold: 600,
+        bolder: 700,
+    },
     breakpoints: {
-        smartphone: "max-width: 767px",
+        smartphone: "max-width: 900px",
         tablet: "min-width: 768px; max-width: 1023px",
     }
 }

@@ -7,11 +7,11 @@ const GlobalStyle = createGlobalStyle<IThemeContextProps>`
         padding: 0;
         margin: 0;
         box-sizing: border-box;
-        font-family: 'Quicksand', sans-serif;
+        font-family: 'Poppins', sans-serif;
         color: ${({theme}) => theme.color.font[60]}
     }
 
-    html{
+    body {
         background-color: ${({theme}) => theme.color.background[60]};
         line-height: 1.5;
         -webkit-font-smoothing: antialiased;
