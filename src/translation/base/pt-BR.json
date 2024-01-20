@@ -26,7 +26,7 @@
         "text": "Com a Endodontia Facilitada, você pode confiar que receberá a indicação ideal para realizar seu tratamento com qualidade e cuidados excepcionais para sua saúde bucal.",
         "cards": [
             {
-                "icon": "",
+                "icon": "src/assets/illustration/urgency.tsx",
                 "title": "Atendimento de Urgência",
                 "text": "Situações de dor ou lesão dental que requerem atenção imediata",
                 "button": "Saiba mais"
