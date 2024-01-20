@@ -64,24 +64,25 @@
     },
     "benefits": {
         "title": "Benefícios:",
+        "subtitle": "Conheça alguns dos benefícios que podemos lhe oferecer",
         "cards": [
             {
-                "icon": "",
+                "img": "procedure",
                 "title": "Espaço confortável",
                 "text": "Conforto e ambiente climatizado c/ tv para oferecer ao paciente uma experiência agradável durante o tratamento."
             },
             {
-                "icon": "",
+                "img": "space",
                 "title": "Procedimentos indolores",
                 "text": "Atuamos com o que há de mais moderno na odontologia."
             },
             {
-                "icon": "",
+                "img": "workers",
                 "title": "Equipe altamente qualificada",
                 "text": "Especialistas, Mestres e Doutores."
             },
             {
-                "icon": "",
+                "img": "xray",
                 "title": "Atendimento personalizado",
                 "text": "Existem vários tipos de pacientes, mas todos têm um desejo em comum: eles querem ser especiais."
             }
