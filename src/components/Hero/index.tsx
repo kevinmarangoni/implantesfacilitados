@@ -40,10 +40,10 @@ const Container = styled.section`
 height: fit-content;
 overflow: hidden;
 max-width: 1000px;
+padding: 16px;
 
 @media (${({theme})=> theme.sizes.breakpoints.smartphone}) {
   width: 100%;
-  padding: 16px;
 }
 
 `
@@ -128,11 +128,13 @@ span{
 `
 const ButtonSection = styled.div`
 text-align: right;
+
 `
 
 const Button = styled.button`
+
   height: 50px;
-  width: 70%;
+  width: 80%;
   min-width: 50%;
   padding: 8px 16px;
   background-color: ${({theme})=> theme.color.font[10]};
@@ -142,10 +144,6 @@ const Button = styled.button`
   border-radius: 8px;
   text-align: center;
   cursor: pointer;
-
-  :hover {
-    background-color: ${({theme})=> theme.color.font[60]};
-  }
 
   @media (${({theme})=> theme.sizes.breakpoints.smartphone}) {
     width: 100%;

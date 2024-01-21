@@ -1,8 +1,15 @@
 import styled from 'styled-components'
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 import React, { useEffect, useState } from 'react'
 
-const CardItem = ({img, title, text, index}) => {
+interface ICardItemProps {
+    img: StaticImageData;
+    title: string;
+    text: string;
+    index: number;
+}
+
+const CardItem:React.FC<ICardItemProps> = ({img, title, text, index}) => {
 
     const [isLeft, setLeft] = useState(true)
 
@@ -98,9 +105,10 @@ const TextSection = styled.div<{$isLeft: boolean}>`
     }
 }
 `
-const Title = styled.div`
+const Title = styled.h1`
     font-size: ${({theme})=> theme.sizes.font.paragraph.xl};
+    color: ${({theme})=> theme.color.font[10]};
 `
-const Text = styled.div`
+const Text = styled.p`
     font-size: ${({theme})=> theme.sizes.font.paragraph.md};
 `
