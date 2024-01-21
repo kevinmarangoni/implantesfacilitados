@@ -41,11 +41,10 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  background: linear-gradient(180deg, ${({theme})=> theme.color.background[30]} 3.42%,  ${({theme})=> theme.color.background[60]} 14.2%);
+background: linear-gradient(180deg, #CEC1AD 0%, #F0F0F0 27.63%);
 /* *{
   border: 1px dashed red;
 } */
-
 `
 const Content = styled.div`
   display: flex;
