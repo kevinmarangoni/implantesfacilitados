@@ -1,16 +1,15 @@
 import { TranslationObject } from '@/translation';
 import React from 'react';
 import Card from '@/components/Tratamento/components/card/Card'; 
-import UrgencyIcon from '@/assets/illustration/urgency';
+import CrossIcon from '@/assets/illustration/cross';
 import styled from 'styled-components';
+import ToothIcon from '@/assets/illustration/tooth';
+import DiagnosisIcon from '@/assets/illustration/diagnosis';
+import InsuranceIcon from '@/assets/illustration/insurance';
 
 const Tratamento: React.FC<{t: TranslationObject}> = ({t}) => {
 
-  const illustrations = {
-    urgency: <UrgencyIcon/>
-  }
- const xqld = 'urgency'
-
+  const icons = [<CrossIcon key={0}/>, <ToothIcon key={1}/>, <DiagnosisIcon key={2}/>, <InsuranceIcon key={3}/>]
 
   return (
     <Container>
@@ -20,7 +19,7 @@ const Tratamento: React.FC<{t: TranslationObject}> = ({t}) => {
           key={index}
           index={index}
           title={item.title} 
-          // icon ={illustrations[item.icon]}
+          icon={icons[index]}
           description={item.text} 
           button={item.button}
         />

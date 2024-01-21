@@ -1,55 +1,91 @@
-import DentistIllustration from '@/assets/illustration/dentist';
-import UrgencyIcon from '@/assets/illustration/urgency';
-import React from 'react';
-import styled,{useTheme} from 'styled-components';
+import React, { useEffect, useState } from 'react';
+import styled, { useTheme } from 'styled-components';
 
-const Card = ({ title, description, button, index}) => {
+const Card = ({ title, description, button, icon, index}) => {
+  const theme = useTheme()
+  const [color, setColor] = useState(theme.color.font[10])
 
-    const theme = useTheme();
 
-    const iconList = [<UrgencyIcon color={theme.color.font[10]} />, <DentistIllustration />, <DentistIllustration />, <DentistIllustration />,]
+  function isPair(index:number){
+    const test = index % 2 === 0
+    if (test){
+      setColor(theme.color.background[10])
+      return
+    }
+    setColor(theme.color.font[10])
+  }
+
+  useEffect(()=>{
+    isPair(index)
+  },[index])
 
   return (
     <Container>
-      <Icon>{iconList[index]}</Icon>
-      <Title>{title}</Title>
-      <Description>{description}</Description>
-      <Button>{button}</Button>
+      <Content>
+      <IconSection $color={color}>{icon}</IconSection>
+      <InfoSection>
+        <Title >{title}</Title>
+        <Description>{description}</Description>
+      </InfoSection>
+      </Content>
+      <Button $color={color}>{button}</Button>
     </Container>
   );
 };
 
 const Container = styled.section`
   height: fit-content;
-  min-height: 300px;
-  width: 400px;
+  height: 300px;
+  width: 23%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   background-color: ${({theme})=> theme.color.background[30]};
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
+  
+  @media (${({theme})=> theme.sizes.breakpoints.smartphone}){
+    width: 100%;
+  }
+  `;
+  
+const Content = styled.div``
+
+const IconSection = styled.div<{$color: string}>`
+height: 70px;
+width: 70px;
+padding: 12px;
+border-radius: 10px;
+transform: translateY(-55px);
+
+@media (${({theme})=> theme.sizes.breakpoints.smartphone}){
+  transform: translateY(0);
+}
+background-color: ${({$color})=> $color};
 `;
 
-const Icon = styled.div`
-height: 50px;
-width: 50px;
-`;
+const InfoSection = styled.div`
+transform: translateY(-45px);
+
+@media (${({theme})=> theme.sizes.breakpoints.smartphone}){
+  transform: translateY(0);
+}
+
+`
 
 const Title = styled.p`
-  margin-top: 10px; 
+  color: ${({theme})=> theme.color.font[10]};
 `;
 
 const Description = styled.p`
-  /* Estilos para a descrição */
-  margin-top: 10px; 
+
 `;
 
-const Button = styled.div`
-  /* Estilos para o botão */
-  margin-top: 10px; 
+const Button = styled.div<{$color: string}>`
+
 `;
 
 export default Card;
+

@@ -26,26 +26,22 @@
         "text": "Com a Endodontia Facilitada, você pode confiar que receberá a indicação ideal para realizar seu tratamento com qualidade e cuidados excepcionais para sua saúde bucal.",
         "cards": [
             {
-                "icon": "src/assets/illustration/urgency.tsx",
                 "title": "Atendimento de Urgência",
-                "text": "Situações de dor ou lesão dental que requerem atenção imediata",
+                "text": "Situações de dor ou lesão dental que requerem atenção imediata. Consiga uma consulta agora mesmo!",
                 "button": "Saiba mais"
             },
             {
-                "icon": "",
-                "title": "Endodontia",
-                "text": "Tratamento das estruturas internas dos dentes, incluindo nervos e vasos sanguíneos. Tratamento de canal.",
+                "title": "Endodontia Microscópica",
+                "text": "Resolução de Casos Complexos como: dente calcificado, perfurado, instrumento fraturado e Retratamento.",
                 "button": "Saiba mais"
             },
             {
-                "icon": "",
-                "title": "Check-Up Odontológico Digital",
-                "text": "Exame de imagem realizado com Raio-x Digital. Com auxílio microscópio de alta definição capaz de captar e aumentar em até 40 vezes o tamanho do dente.",
+                "title": "Diagnóstico Digital",
+                "text": "Exames realizados com Raio-x Digital, scanner, cameras e microscópio capaz de aumentar em até 40x o tamanho do dente. Planejamento em 3D.",
                 "button": "Saiba mais"
             },
             {
-                "icon": "",
-                "title": "Prevenção Oral",
+                "title": "Prevenção Bucal",
                 "text": "Conjunto de medidas visando preservar a saúde bucal, evitando ou minimizando a incidência de doenças e problemas dentais.",
                 "button": "Saiba mais"
             }
