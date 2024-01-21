@@ -39,11 +39,16 @@ const Container = styled.div`
 border-radius: 20px;
 background-color: ${({theme})=> theme.color.background[30]};
 overflow: hidden;
-height: 170px;
+height: fit-content;
 box-shadow: 0px 0px 10px -5px rgba(143,143,143,1);
 
 @media (${({theme})=> theme.sizes.breakpoints.smartphone}) {
     height: fit-content;
+    flex: 0 0 48%;
+}
+
+@media (${({theme})=> theme.sizes.breakpoints.tablet}) {
+    flex: 0 0 48%;
 }
 `
 const Content = styled.div<{$isLeft: boolean}>`
@@ -57,20 +62,20 @@ gap: 5%;
 
 `
 const ImageSection = styled.div`
-width: 40%;
-
+width: 50%;
+overflow: hidden;
+height: 250px;
 
 @media (${({theme})=> theme.sizes.breakpoints.smartphone}) {
     width: 100%;
-    height: 50%;
+    height: 250px;
 }
 
 `
 const CardImage = styled(Image)`
-  height: fit-content;
-  width: fit-content;
-  object-fit: contain;
-
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
   @media (${({theme})=> theme.sizes.breakpoints.smartphone}) {
     object-fit: cover;
 }
@@ -79,11 +84,15 @@ const TextSection = styled.div<{$isLeft: boolean}>`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 50%;
+    padding: 24px;
+    gap: 8px;
     *{
         text-align: ${({$isLeft})=> $isLeft  ? 'right' : 'left' }
     }
 
     @media (${({theme})=> theme.sizes.breakpoints.smartphone}) {
+        width: 100%;
         *{
         text-align: center;
     }

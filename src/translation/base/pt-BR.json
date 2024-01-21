@@ -62,29 +62,34 @@
         },
         "button": "Agende já sua Consulta"
     },
-    "benefits": {
-        "title": "Benefícios:",
-        "subtitle": "Conheça alguns dos benefícios que podemos lhe oferecer",
+    "differentials": {
+        "title": "Diferenciais",
+        "subtitle": "Conheça alguns dos diferenciais e benefícios que podemos lhe oferecer",
         "cards": [
             {
-                "img": "procedure",
+                "img": "space",
                 "title": "Espaço confortável",
-                "text": "Conforto e ambiente climatizado c/ tv para oferecer ao paciente uma experiência agradável durante o tratamento."
+                "text": "Conforto e ambiente climatizado com Wifi / Tv para oferecer a você uma experiência agradável, curtindo seu filme, serie e artista preferido durante todo o tratamento."
             },
             {
-                "img": "space",
+                "img": "procedure",
                 "title": "Procedimentos indolores",
-                "text": "Atuamos com o que há de mais moderno na odontologia."
+                "text": "Atuamos com o que há de mais moderno na odontologia, priorizamos o seu bem-estar. Disponibilizamos os melhores recursos para resolução do seu caso com total tranquilidade e sem dor."
             },
             {
                 "img": "workers",
                 "title": "Equipe altamente qualificada",
-                "text": "Especialistas, Mestres e Doutores."
+                "text": "Nossos especialistas estão sempre dispostos a passar todas as explicações necessárias que facilitem o seu entendimento sobre todo o tratamento que será realizado, e acompanhe melhor todo o processo."
             },
             {
                 "img": "xray",
-                "title": "Atendimento personalizado",
-                "text": "Existem vários tipos de pacientes, mas todos têm um desejo em comum: eles querem ser especiais."
+                "title": "Atendimento Humanizado",
+                "text": "Na Endodontia Facilitada priorizamos o seu bem-estar. Na primeira consulta, ouviremos quais são os seus objetivos e desejos, e planejaremos o tratamento mais adequado as suas vontades."
+            },
+            {
+                "img": "autoclave",
+                "title": "Biossegurança e Esterilização",
+                "text": "Controle rígido de biossegurança (conjunto de procedimentos que evitam o contágio de bactérias e microorganismos entre os pacientes)"
             }
         ],
         "button": "Venha se tratar conosco!"
