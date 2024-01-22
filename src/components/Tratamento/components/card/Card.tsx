@@ -34,9 +34,9 @@ const Card = ({ title, description, button, icon, index}) => {
 };
 
 const Container = styled.section`
-  height: fit-content;
-  height: 300px;
+  height: 425px;
   width: 23%;
+  max-width: 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -45,13 +45,23 @@ const Container = styled.section`
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  
   @media (${({theme})=> theme.sizes.breakpoints.smartphone}){
     width: 100%;
+    height: 100%;
+    padding: 20px;
+    max-width: 100%;
   }
   `;
   
-const Content = styled.div``
+const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  @media (${({theme})=> theme.sizes.breakpoints.smartphone}){
+    padding: 12px;
+  }
+`
 
 const IconSection = styled.div<{$color: string}>`
 height: 70px;
@@ -68,7 +78,9 @@ background-color: ${({$color})=> $color};
 
 const InfoSection = styled.div`
 transform: translateY(-45px);
-
+display: flex;
+  flex-direction: column;
+gap: 12px;
 @media (${({theme})=> theme.sizes.breakpoints.smartphone}){
   transform: translateY(0);
 }
@@ -76,15 +88,23 @@ transform: translateY(-45px);
 `
 
 const Title = styled.p`
+  text-align: center;
   color: ${({theme})=> theme.color.font[10]};
+  font-size: ${({theme})=> theme.sizes.font.paragraph.lg};
+  font-weight: ${({theme})=> theme.sizes.weights.regular};
 `;
 
 const Description = styled.p`
-
+  text-align: center;
 `;
 
 const Button = styled.div<{$color: string}>`
-
+  background-color: ${({$color})=> $color};
+  padding: 8px 16px;
+  width: 100%;
+  border-radius: 8px;
+  text-align: center;
+  color: ${({theme})=> theme.color.font[30]};
 `;
 
 export default Card;

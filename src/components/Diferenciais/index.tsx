@@ -16,7 +16,7 @@ const Diferenciais:React.FC<{t: TranslationObject}> = ({t}) => {
     <Container>
       <Content>
         <TitleSection>
-          <Title>{t.differentials.title}</Title>
+          <Title dangerouslySetInnerHTML={{ __html: t.differentials.title }} />
           <Subtitle>{t.differentials.subtitle}</Subtitle>
         </TitleSection>
         <CardsSection>
@@ -56,9 +56,12 @@ display: flex;
 flex-direction: column;
 `
 const Title = styled.h1`
-color: ${({theme})=> theme.color.font[10]};
 font-size: ${({theme})=> theme.sizes.font.title.md};
 text-align: center;
+
+span{
+  color: ${({theme})=> theme.color.font[10]};
+}
 `
 const Subtitle = styled.p`
 color: ${({theme})=> theme.color.font[60]};

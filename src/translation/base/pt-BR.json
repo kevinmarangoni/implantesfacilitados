@@ -22,8 +22,8 @@
         "button": "Marque sua consulta!"
     },
     "treatment": {
-        "title": "Tratamentos:",
-        "text": "Com a Endodontia Facilitada, você pode confiar que receberá a indicação ideal para realizar seu tratamento com qualidade e cuidados excepcionais para sua saúde bucal.",
+        "title": "Conheça nossos <span>tratamentos</span>",
+        "text": "Realize seu tratamento com qualidade e cuidados excepcionais para sua saúde bucal.",
         "cards": [
             {
                 "title": "Atendimento de Urgência",
@@ -37,7 +37,7 @@
             },
             {
                 "title": "Diagnóstico Digital",
-                "text": "Exames realizados com Raio-x Digital, scanner, cameras e microscópio capaz de aumentar em até 40x o tamanho do dente. Planejamento em 3D.",
+                "text": "Exames realizados com Raio-x Digital, scanner, cameras e microscópio capaz de aumentar em até 40x o tamanho do dente.",
                 "button": "Saiba mais"
             },
             {
@@ -59,7 +59,7 @@
         "button": "Agende já sua Consulta"
     },
     "differentials": {
-        "title": "Diferenciais",
+        "title": "Nosso <span>diferencial</span>",
         "subtitle": "Conheça alguns dos diferenciais e benefícios que podemos lhe oferecer",
         "cards": [
             {

@@ -52,5 +52,5 @@ const Content = styled.div`
   align-items: flex-start;
   flex-direction: column;
   padding: 0 16px;
-  gap: 16px;
+  gap: 56px;
 `
