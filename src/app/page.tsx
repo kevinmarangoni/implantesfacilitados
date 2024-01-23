@@ -53,4 +53,6 @@ const Content = styled.div`
   flex-direction: column;
   padding: 0 16px;
   gap: 56px;
+
+  max-width: 1000px;
 `

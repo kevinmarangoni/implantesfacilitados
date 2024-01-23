@@ -38,7 +38,6 @@ const Diferenciais:React.FC<{t: TranslationObject}> = ({t}) => {
 export default Diferenciais
 
 const Container = styled.div`
-max-width: 1000px;
 
 @media (${({theme})=> theme.sizes.breakpoints.smartphone}) {
   width: 100%;

@@ -50,7 +50,7 @@
     "about_us": {
         "title": {
             "sub": "Conheça um pouco mais",
-            "big": "Sobre nós:"
+            "big": "Sobre nós"
         },
         "text": {
             "first": "A Endodontia Facilitada, clínica de endodontia na região do ABC é especializada no tratamento de canal, atuando com o que há de mais moderno na odontologia, utilizando as técnicas mais avançadas em endodontia. Com o uso do MICROSCÓPIO o especialista em canal garante um tratamento mais preciso e eficiente, evitando possíveis complicações no futuro.",
@@ -92,7 +92,7 @@
     },
     "testimony": {
         "title": "Depoimentos",
-        "description": "Veja o que nossos clientes dizem sobre nós.",
+        "description": "Veja o que nossos pacientes dizem sobre nós.",
         "excellent": "Excelente",
         "reviews_at": "resenhas no",
         "button": "Já se consultou? Nos Avalie!"
