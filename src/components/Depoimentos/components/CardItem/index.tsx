@@ -1,16 +1,18 @@
 import styled from 'styled-components'
-import React from 'react'
+import React, { ReactNode, useEffect, useState } from 'react'
 import Image from 'next/image'
+import FullStar from '@/assets/icons/FullStar'
 
 
 interface ICardItemProps {
     avatar: string
-    stars: number
+    star: number
     name: string
     text: string
 }
 
-const CardItem:React.FC<ICardItemProps> = ({avatar, stars, name, text}) => {
+const CardItem:React.FC<ICardItemProps> = ({avatar, star, name, text}) => {
+
   return (
     <Container>
         <Content>
@@ -20,7 +22,13 @@ const CardItem:React.FC<ICardItemProps> = ({avatar, stars, name, text}) => {
                 </AvatarWrapper>
                 <UserData>
                     <Name>{name.split(" ")[0].toUpperCase()}</Name>
-                    <Stars>{stars}</Stars>
+                    <Stars>
+                      <FullStar color="#e2cb47"/>
+                      <FullStar color="#e2cb47"/>
+                      <FullStar color="#e2cb47"/>
+                      <FullStar color="#e2cb47"/>
+                      <FullStar color="#e2cb47"/>
+                      </Stars>
                 </UserData>
             </UserSection>
             <TextSection>
@@ -52,6 +60,7 @@ const UserSection = styled.div`
 display: flex;
 flex-direction: row;
 gap: 16px;
+width: 100%;
 `
 const UserData = styled.div`
 display: flex;
@@ -66,7 +75,11 @@ const AvatarImage = styled(Image)`
 const Name = styled.p`
 text-overflow: ellipsis;
 `
-const Stars = styled.div``
+const Stars = styled.div`
+display: flex;
+flex-direction: row;
+height: 15px;
+`
 const TextSection = styled.div`
     height: 200px;
     overflow-y: auto;

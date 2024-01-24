@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { ReactNode, useState } from 'react';
 import styled from 'styled-components';
 
 const CarouselContainer = styled.div`
@@ -12,7 +12,7 @@ const SlideContainer = styled.div`
   overflow: hidden;
 `;
 
-const SlideItem = styled.div`
+const SlideItem = styled.div<{$index: number}>`
   padding: 10px;
   margin: 0 5px;
   transition: transform 0.5s ease-in-out;
@@ -40,17 +40,22 @@ const DotsContainer = styled.div`
   margin-top: 10px;
 `;
 
-const Dot = styled.div`
+const Dot = styled.div<{$isActive: boolean}>`
   width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: ${(props) => (props.active ? '#333' : '#ccc')};
+  height: 5px;
+  border-radius: 5px;
+  background: ${(props) => (props.$isActive ? '#333' : '#ccc')};
   margin: 0 5px;
   cursor: pointer;
   transition: background 0.3s ease-in-out;
 `;
 
-const Carousel = ({ children, visibleItem }) => {
+interface ICarouselProps {
+  children: ReactNode
+  visibleItem: number
+}
+
+const Carousel:React.FC<ICarouselProps> = ({ children, visibleItem }) => {
   const itemsPerPage = visibleItem;
   const totalItems = React.Children.count(children);
   const totalPages = Math.ceil(totalItems / itemsPerPage);
@@ -70,7 +75,7 @@ const Carousel = ({ children, visibleItem }) => {
     setCurrentPage((prevPage) => (prevPage - 1 + totalPages) % totalPages);
   };
 
-  const handleDotClick = (index) => {
+  const handleDotClick = (index:number) => {
     setCurrentPage(index);
   };
 
@@ -78,7 +83,7 @@ const Carousel = ({ children, visibleItem }) => {
     <CarouselContainer>
       <SlideContainer>
         {currentItems.map((item, index) => (
-          <SlideItem key={index} index={index - currentPage}>
+          <SlideItem key={index} $index={index - currentPage}>
             {item}
           </SlideItem>
         ))}
@@ -91,7 +96,7 @@ const Carousel = ({ children, visibleItem }) => {
         {Array.from({ length: totalPages }).map((_, index) => (
           <Dot
             key={index}
-            active={index === currentPage}
+            $isActive={index === currentPage}
             onClick={() => handleDotClick(index)}
           />
         ))}
