@@ -7,6 +7,7 @@ import workers from '/src/assets/images/Diferenciais/workers.png'
 import xray from '/src/assets/images/Diferenciais/humane.jpg'
 import autoclave from '/src/assets/images/Diferenciais/autoclave.webp'
 import CardItem from './components/CardItem'
+import Button from '../Button'
 
 const Diferenciais:React.FC<{t: TranslationObject}> = ({t}) => {
 
@@ -28,7 +29,7 @@ const Diferenciais:React.FC<{t: TranslationObject}> = ({t}) => {
           }
         </CardsSection>
         <ButtonSection>
-          
+          <Button>{t.differentials.button}</Button>
         </ButtonSection>
       </Content>
     </Container>

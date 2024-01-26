@@ -16,7 +16,7 @@ const SobreNos:React.FC<{t: TranslationObject}> = ({t}) => {
           <Text>{t.about_us.text.first}</Text>
           <Text>{t.about_us.text.second}</Text> 
           <Text>{t.about_us.text.third}</Text> 
-          <Button>{t.about_us.button}</Button>
+          <Button text={''}>{t.about_us.button}</Button>
         </InfoSection>
         <VideoSection>
           <VideoWrapper>
@@ -90,8 +90,6 @@ const PresentationSection = styled.div`
     padding: 32px;
   }
 `
-const SlidesSection = styled.div``
-
 const Title = styled.h1`
   font-size: ${({theme})=> theme.sizes.font.title.md};
   color: ${({theme})=> theme.color.font[60]};
