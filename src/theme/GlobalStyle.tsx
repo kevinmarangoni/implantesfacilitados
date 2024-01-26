@@ -8,12 +8,12 @@ const GlobalStyle = createGlobalStyle<IThemeContextProps>`
         margin: 0;
         box-sizing: border-box;
         font-family: 'Poppins', sans-serif;
-        color: ${({theme}) => theme.color.font[60]}
+        color: ${({theme}) => theme.color.font[60]};
+        line-height: 1.3;
     }
 
     body {
         background-color: ${({theme}) => theme.color.background[60]};
-        line-height: 1.5;
         -webkit-font-smoothing: antialiased;
         -webkit-text-size-adjust: 100%;
     }

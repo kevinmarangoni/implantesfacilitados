@@ -6,6 +6,7 @@ import Image from 'next/image'
 
 import logo from '@/assets/images/logo.png'
 import heroImage from '@/assets/images/hero.webp'
+import Button from '../Button'
 
 const Hero:React.FC<{t: TranslationObject}> = ({t}) => {
   return (
@@ -44,6 +45,7 @@ padding: 16px;
 
 @media (${({theme})=> theme.sizes.breakpoints.smartphone}) {
   width: 100%;
+  padding: 0px;
 }
 
 `
@@ -74,7 +76,7 @@ const IllustrationSection = styled.div`
 `
 const LeftSection = styled.div``
 const LogoSection = styled.div`
-  height: 125px;
+  height: 105px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -129,23 +131,4 @@ span{
 const ButtonSection = styled.div`
 text-align: right;
 
-`
-
-const Button = styled.button`
-
-  height: 50px;
-  width: 80%;
-  min-width: 50%;
-  padding: 8px 16px;
-  background-color: ${({theme})=> theme.color.font[10]};
-  color: ${({theme})=> theme.color.font[30]};
-  font-size: ${({theme})=> theme.sizes.font.paragraph.lg};
-  font-weight: ${({theme})=> theme.sizes.weights.regular};
-  border-radius: 8px;
-  text-align: center;
-  cursor: pointer;
-
-  @media (${({theme})=> theme.sizes.breakpoints.smartphone}) {
-    width: 100%;
-  }
 `

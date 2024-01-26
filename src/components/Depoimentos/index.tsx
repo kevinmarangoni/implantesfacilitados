@@ -7,7 +7,7 @@ import Caroussel from './components/Caroussel'
 import { useWindowSize } from 'usehooks-ts'
 
 const Depoimentos:React.FC<{t: TranslationObject}> = ({t}) => {
-  const [viewport, setViewport] = useState(3)
+  const [viewport, setViewport] = useState(1)
   const reviewList = reviews ?? []
 
   const {width} = useWindowSize()

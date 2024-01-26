@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { TranslationObject } from '@/translation'
 import React from 'react'
+import Button from '../Button'
 
 const SobreNos:React.FC<{t: TranslationObject}> = ({t}) => {
   return (
@@ -8,13 +9,14 @@ const SobreNos:React.FC<{t: TranslationObject}> = ({t}) => {
       <Content>
         <TitleSection>
           <Title dangerouslySetInnerHTML={{ __html: t.about_us.title }} />
+        <Subtitle>{t.about_us.subtitle}</Subtitle>
         </TitleSection>
         <PresentationSection>
         <InfoSection>
-        <Subtitle>{t.about_us.subtitle}</Subtitle>
           <Text>{t.about_us.text.first}</Text>
           <Text>{t.about_us.text.second}</Text> 
           <Text>{t.about_us.text.third}</Text> 
+          <Button>{t.about_us.button}</Button>
         </InfoSection>
         <VideoSection>
           <VideoWrapper>
@@ -22,7 +24,6 @@ const SobreNos:React.FC<{t: TranslationObject}> = ({t}) => {
           </VideoWrapper>
         </VideoSection>
         </PresentationSection>
-        <SlidesSection></SlidesSection>
       </Content>
     </Container>
   )
@@ -30,27 +31,42 @@ const SobreNos:React.FC<{t: TranslationObject}> = ({t}) => {
 
 export default SobreNos
 
-const Container = styled.div``
+const Container = styled.div`
+
+`
 const Content = styled.div`
   display: flex;
   flex-direction: column;
   gap: 32px;
+  
 `
 const InfoSection = styled.div`
   display: flex;
   flex-direction: column;
   gap: 16px;
-  width: 60%;
+  width: 65%;
+  padding: 16px 32px;
+
+  @media (${({theme})=> theme.sizes.breakpoints.smartphone}){
+    width: 100%;
+    padding: 0px;
+  }
 `
 const VideoSection = styled.div`
 
 `
 const VideoWrapper = styled.div`
-height: 400px;
+height: 500px;
  video{
   height: 100%;
-  border-radius: 20px;
  }
+
+ @media (${({theme})=> theme.sizes.breakpoints.smartphone}){
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+  }
 `
 
 const TitleSection = styled.div`
@@ -63,6 +79,16 @@ const PresentationSection = styled.div`
   flex-direction: row;
   gap: 16px;
   justify-content: space-between;
+  background-color: ${({theme})=> theme.color.background[30]};
+  border-radius: 20px;
+  overflow: hidden;
+
+  @media (${({theme})=> theme.sizes.breakpoints.smartphone}){
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+    padding: 32px;
+  }
 `
 const SlidesSection = styled.div``
 
@@ -75,8 +101,11 @@ const Title = styled.h1`
 }
 `
 const Subtitle = styled.h2`
-  font-size: ${({theme})=> theme.sizes.font.paragraph.xl};
-  color: ${({theme})=> theme.color.font[10]};
+  font-size: ${({theme})=> theme.sizes.font.paragraph.md};
 `
 
-const Text = styled.div``
+const Text = styled.div`
+font-size: ${({theme})=> theme.sizes.font.paragraph.md};
+line-height: 1.8;
+text-align: justify;
+`
