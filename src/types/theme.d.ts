@@ -1,9 +1,4 @@
 import { DefaultTheme } from "styled-components"
-
-export interface IThemeContextProps extends DefaultTheme {
-    theme: ITheme
-}
-
 export interface ITheme {
     color: IThemeColor
     sizes: IThemeSizes
@@ -55,3 +50,7 @@ export interface IThemeSizes {
         tablet: "min-width: 768px; max-width: 1023px",
     }
 }
+
+declare module "styled-components" {
+    export interface DefaultTheme extends ITheme {}
+  }

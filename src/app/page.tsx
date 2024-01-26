@@ -21,13 +21,15 @@ export default function Home() {
     <Container>
       <Content>
         <Header t={t} />
-        <Hero t={t} />
-        <Tratamento t={t} />
-        <Diferenciais t={t} />
-        <SobreNos t={t} />
-        <Depoimentos t={t} />
-        <Agende t={t} />
-        <Mapa t={t} />
+        <Sections>
+          <Hero t={t} />
+          <Tratamento t={t} />
+          <Diferenciais t={t} />
+          <SobreNos t={t} />
+          <Depoimentos t={t} />
+          <Agende t={t} />
+          <Mapa t={t} />
+        </Sections>
         <Footer t={t} />
       </Content>
     </Container>
@@ -44,6 +46,14 @@ const Container = styled.div`
   background: linear-gradient(180deg, #CEC1AD 0%, #F0F0F0 27.63%);
 `
 const Content = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+`
+
+const Sections = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-start;

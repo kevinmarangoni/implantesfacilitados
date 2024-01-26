@@ -5,6 +5,7 @@ import reviews from '../../translation/reviews/lista_de_reviews.json'
 import CardItem from './components/CardItem'
 import Caroussel from './components/Caroussel'
 import { useWindowSize } from 'usehooks-ts'
+import Button from '../Button'
 
 const Depoimentos:React.FC<{t: TranslationObject}> = ({t}) => {
   const [viewport, setViewport] = useState(1)
@@ -58,6 +59,7 @@ const Depoimentos:React.FC<{t: TranslationObject}> = ({t}) => {
         </CardsSection>
         <ButtonSection>
           <Button></Button>
+          <Button isGoogleRelated>{t.testimony.button}</Button>
         </ButtonSection>
       </Content>
     </Container>
@@ -91,5 +93,14 @@ text-align: center;
 const CardsSection = styled.div`
 width: 100%;
 `
-const ButtonSection = styled.div``
-const Button = styled.div``
+const ButtonSection = styled.div`
+display: flex;
+flex-direction: row;
+gap: 24px;
+
+@media (${({theme})=> theme.sizes.breakpoints.smartphone}) {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+`

@@ -29,7 +29,7 @@ const Diferenciais:React.FC<{t: TranslationObject}> = ({t}) => {
           }
         </CardsSection>
         <ButtonSection>
-          <Button>{t.differentials.button}</Button>
+          <Button isGoogleRelated>{t.differentials.button}</Button>
         </ButtonSection>
       </Content>
     </Container>
@@ -78,4 +78,14 @@ gap: 24px;
   flex-wrap: wrap;
 }
 `
-const ButtonSection = styled.div``
+const ButtonSection = styled.div`
+display: flex;
+flex-direction: row;
+gap: 24px;
+
+@media (${({theme})=> theme.sizes.breakpoints.tablet}) {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+`

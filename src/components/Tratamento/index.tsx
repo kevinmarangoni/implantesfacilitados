@@ -27,6 +27,7 @@ const Tratamento: React.FC<{t: TranslationObject}> = ({t}) => {
           icon={icons[index]}
           description={item.text} 
           button={item.button}
+          redirectText={item.redirectText}
         />
       ))}
         </CardsSection>

@@ -1,11 +1,25 @@
 {
     "global": {
-        "whatsapp_number": "(11) 96671-7274"
+        "hour":[
+            "Segunda – Sexta: 9:00 as 19:00",
+            "Sábado – 9:00 as 13:00"
+        ],
+        "social":{
+            "instagram":"https://instagram.com/endodontiafacilitada?igshid=Mzc1MmZhNjY=%20%20",
+            "facebook":"https://www.facebook.com/endodontiafacilitada?mibextid=LQQJ4d%20",
+            "whatsapp":"https://wa.link/5evhq7"
+    },
+        "phone":"(11) 96671-7274",
+        "whatsapp":"(11) 4129-2073",
+        "address":"Rua Frei Gaspar 941 - Conj. 702 Centro, São Bernardo do Campo/SP",
+        "email": "endodontiafacilitada@gmail.com"
     },
     "header": {
         "menu": {
-            "about": "Sobre",
-            "treatment": "Tratamento",
+            "about": "A Clínica",
+            "differentials": "Diferenciais",
+            "testimony": "Depoimentos",
+            "treatment": "Tratamentos",
             "schedule": "Agendar",
             "contact": "Contato",
             "map": "Localização"
@@ -28,22 +42,26 @@
             {
                 "title": "Atendimento de Urgência",
                 "text": "Situações de dor ou lesão dental que requerem atenção imediata. Consiga uma consulta agora mesmo!",
-                "button": "Saiba mais"
+                "button": "Saiba mais",
+                "redirectText": "Tenho uma emergência e desejo marcar uma consulta."
             },
             {
                 "title": "Endodontia Microscópica",
                 "text": "Resolução de Casos Complexos como: dente calcificado, perfurado, instrumento fraturado e Retratamento.",
-                "button": "Saiba mais"
+                "button": "Saiba mais",
+                "redirectText": "Olá, poderia me esclarecer melhor a respeito da Endodontia Microscópica?"
             },
             {
                 "title": "Diagnóstico Digital",
                 "text": "Exames realizados com Raio-x Digital, scanner, cameras e microscópio capaz de aumentar em até 40x o tamanho do dente.",
-                "button": "Saiba mais"
+                "button": "Saiba mais",
+                "redirectText": "Olá, poderia me esclarecer melhor a respeito do Diagnóstico Digital?"
             },
             {
                 "title": "Prevenção Bucal",
                 "text": "Conjunto de medidas visando preservar a saúde bucal, evitando ou minimizando a incidência de doenças e problemas dentais.",
-                "button": "Saiba mais"
+                "button": "Saiba mais",
+                "redirectText": "Olá, poderia me esclarecer melhor a respeito da Prevenção Bucal na clínica?"
             }
         ]
     },
@@ -55,7 +73,8 @@
             "second": "Com o uso do MICROSCÓPIO o especialista em canal garante um tratamento mais preciso e eficiente, evitando possíveis complicações no futuro.",
             "third": "Além disso, a clínica conta com profissionais capacitados e experientes em endodontia microscópica, clínica e cirúrgica. Garantindo um atendimento humanizado de excelência.  Se você busca realizar tratamento de canal de qualidade, a endodontia facilitada é uma excelente opção."
         },
-        "button": "Agende já sua Consulta"
+        "button": "Agende já sua Consulta",
+        "redirectText": "Olá, desejo marcar uma consulta, como faço?"
     },
     "differentials": {
         "title": "Nosso <span>diferencial</span>",
@@ -87,7 +106,8 @@
                 "text": "Controle rígido de biossegurança (conjunto de procedimentos que evitam o contágio de bactérias e microorganismos entre os pacientes)"
             }
         ],
-        "button": "Venha se tratar conosco!"
+        "button": "Venha se tratar conosco!",
+        "redirectText": "Olá, poderia me esclarecer melhor a respeito dos tratamentos que vocês oferecem?"
     },
     "testimony": {
         "title": "Depoimentos",
@@ -108,24 +128,10 @@
     },
     "footer": {
         "working": {
-            "title": "Horário de Atendimento",
-            "times": [
-                "Segunda – Sexta: 9:00 as 19:00",
-                "Sábado – 9:00 as 13:00"
-            ]
+            "title": "Horário de Atendimento"
         },
-        "contact": [
-            {"icon":"", "text": "(11) 4129-2073"},
-            {"icon":"", "text": "(11) 96671-7274"},
-            {"icon":"", "text": "endodontiafacilitada@gmail.com"}
-        ],
         "social":{
-            "title": "Nossas redes sociais:",
-            "apps":[
-                {"icon":"", "name": "instagram", "link":"https://instagram.com/endodontiafacilitada?igshid=Mzc1MmZhNjY=%20%20"},
-                {"icon":"", "name": "facebook", "link":"https://www.facebook.com/endodontiafacilitada?mibextid=LQQJ4d%20"},
-                {"icon":"", "name": "whatsapp", "link":"https://wa.link/5evhq7"}
-            ]
+            "title": "Nossas redes sociais:"
         },
         "rights": "Copyright 2023 © Endodontia Facilitada-  Todos os direitos reservados.",
         "made_by": "Feito por"

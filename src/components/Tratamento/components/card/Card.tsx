@@ -1,7 +1,18 @@
-import React, { useEffect, useState } from 'react';
+/* eslint-disable react-hooks/exhaustive-deps */
+import Button from '@/components/Button';
+import React, { ReactNode, useEffect, useState } from 'react';
 import styled, { useTheme } from 'styled-components';
 
-const Card = ({ title, description, button, icon, index}) => {
+interface ICardProps {
+  title: string;
+  description: string;
+  button: string;
+  icon: ReactNode;
+  index: number;
+  redirectText: string;
+}
+
+const Card:React.FC<ICardProps> = ({ title, description, button, icon, index, redirectText }) => {
   const theme = useTheme()
   const [color, setColor] = useState(theme.color.font[10])
 
@@ -28,7 +39,7 @@ const Card = ({ title, description, button, icon, index}) => {
         <Description>{description}</Description>
       </InfoSection>
       </Content>
-      <Button $color={color}>{button}</Button>
+      <Button $color={color} text={redirectText}>{button}</Button>
     </Container>
   );
 };
@@ -99,15 +110,6 @@ const Title = styled.p`
 
 const Description = styled.p`
   text-align: center;
-`;
-
-const Button = styled.div<{$color: string}>`
-  background-color: ${({$color})=> $color};
-  padding: 8px 16px;
-  width: 100%;
-  border-radius: 8px;
-  text-align: center;
-  color: ${({theme})=> theme.color.font[30]};
 `;
 
 export default Card;
