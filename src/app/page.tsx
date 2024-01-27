@@ -12,15 +12,29 @@ import styled from 'styled-components'
 
 import useTranslation from '@/translation'
 import Header from '@/components/Header'
+import { useEffect, useState } from 'react'
+import { useWindowSize } from 'usehooks-ts'
 
 export default function Home() {
-
   const {t} = useTranslation()
+  const {width} = useWindowSize()
+  const [isMobile, setIsMobile] = useState(false)
+  
+  useEffect(()=>{
+    if(width < 800){
+      setIsMobile(true)
+    }
+    else{
+      setIsMobile(false)
+    }
+  },[width])
+
+
 
   return (
     <Container>
       <Content>
-        <Header t={t} />
+        {!isMobile && <Header t={t} />}
         <Sections>
           <Hero t={t} />
           <Tratamento t={t} />

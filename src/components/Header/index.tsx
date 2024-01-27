@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react'
 import logo from '@/assets/images/logo.png'
 import Image from 'next/image'
 import useScrollPosition from '@/utils/useScroll'
+import { useWindowSize } from 'usehooks-ts'
 
 const Header:React.FC<{t: TranslationObject}> = ({t}) => {
   const scroll = useScrollPosition()
@@ -23,14 +24,17 @@ const Header:React.FC<{t: TranslationObject}> = ({t}) => {
       <Content>
         <FixedHeader>
           <FixedContent isTopPage={isTopPage}>
-            <WorkTime>{t.global.hour[0]}</WorkTime>
-            <Contact><div>{t.global.phone}</div><div>{t.global.whatsapp}</div></Contact>
-            <Address>{t.global.address}</Address>
-            <Social></Social>
+            <div>
+              <WorkTime>{t.global.hour[0]}</WorkTime>
+              <Contact><div>{t.global.phone}</div><div>{t.global.whatsapp}</div></Contact>
+              <Address>{t.global.address}</Address>
+              {/* <Social></Social> */}
+            </div>
           </FixedContent>
         </FixedHeader>
         <MainHeader>
-        <LogoSection>
+          <div>
+          <LogoSection>
             <Logo src={logo} alt={"logo"} />
           </LogoSection>
           <MenuSection>
@@ -41,6 +45,7 @@ const Header:React.FC<{t: TranslationObject}> = ({t}) => {
             <li>{t.header.menu.contact}</li>
           </MenuSection>
           <div></div>
+          </div>
         </MainHeader>
       </Content>
     </Container>
@@ -71,10 +76,18 @@ font-size: ${({theme})=> theme.sizes.font.paragraph.sm};
 box-shadow: ${({isTopPage})=> !isTopPage ? '0 4px 8px rgba(0, 0, 0, 0.1)': 'none'};
 display: flex;
 flex-direction: row;
-justify-content: space-between;
+justify-content: center;
 align-items: center;
 padding: 8px;
 
+div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+}
 `
 const Address = styled.div``
 const Contact = styled.div`
@@ -92,10 +105,18 @@ const Social = styled.div``
 const MainHeader = styled.div`
 display: flex;
 flex-direction: row;
-justify-content: space-between;
+justify-content: center;
 background-color: ${({theme})=> theme.color.background[30]};
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 padding: 8px;
+
+div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+}
 `
 
 const LogoSection = styled.div`
@@ -120,7 +141,11 @@ const MenuSection = styled.ul`
   justify-content: space-between;
   align-items: center;
   gap: 16px;
+
   li{
 
+    &:hover{
+
+    }
   }
   `
