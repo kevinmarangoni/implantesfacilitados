@@ -14,12 +14,14 @@ export const metadata: Metadata = {
 },
 openGraph: {
   type: "website",
-  url: "https://example.com",
-  title: "My Website",
-  description: "My Website Description",
-  siteName: "My Website",
+  url: "https://endodontiafacilitada.vercel.app",
+  title: "Endodontia Facilitada",
+  description: 'Endodontia Microscópica, Clínica e Cirúrgica. Somos referência em Tratamento de Canal Sem Dor. Acabe com a dor e o desconforto de canal. Nosso atendimento de endodontia é rápido, indolor e sem estresse.',
+  siteName: "Tratamento de canal sem dor",
   images: [{
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXQo_evXZkDZvRquS1k2Ws3-WGmthHxKh5G_P40Qrpwg&s",
+    width: 700,
+    height: 300,
   }],
 }
 }
