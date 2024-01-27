@@ -4,7 +4,6 @@ import React, { useEffect, useState } from 'react'
 import logo from '@/assets/images/logo.png'
 import Image from 'next/image'
 import useScrollPosition from '@/utils/useScroll'
-import { useWindowSize } from 'usehooks-ts'
 
 const Header:React.FC<{t: TranslationObject}> = ({t}) => {
   const scroll = useScrollPosition()
@@ -57,9 +56,6 @@ export default Header
 
 const Container = styled.div`
 width: 100%;
-/* *{
-  border: 1px dashed red;
-} */
 
 `
 const Content = styled.div``

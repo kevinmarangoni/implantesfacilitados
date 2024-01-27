@@ -106,4 +106,8 @@ const Text = styled.div`
 font-size: ${({theme})=> theme.sizes.font.paragraph.md};
 line-height: 1.8;
 text-align: justify;
+
+@media (${({theme})=> theme.sizes.breakpoints.smartphone}) {
+  text-align: center;
+  }
 `

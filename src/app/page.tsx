@@ -74,6 +74,6 @@ const Sections = styled.div`
   flex-direction: column;
   padding: 0 16px;
   gap: 56px;
-
+  margin-bottom: 64px;
   max-width: 1000px;
 `
