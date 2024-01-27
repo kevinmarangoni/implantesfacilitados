@@ -19,7 +19,7 @@ openGraph: {
   description: 'Endodontia Microscópica, Clínica e Cirúrgica. Somos referência em Tratamento de Canal Sem Dor. Acabe com a dor e o desconforto de canal. Nosso atendimento de endodontia é rápido, indolor e sem estresse.',
   siteName: "Tratamento de canal SEM DOR!",
   images: [{
-    url: "https://freeimage.host/i/JcaXE5N",
+    url: "https://iili.io/JcaXE5N.jpg",
     width: 1200,
     height: 480,
   }],
