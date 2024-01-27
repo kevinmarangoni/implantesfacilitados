@@ -19,7 +19,7 @@ openGraph: {
   description: "My Website Description",
   siteName: "My Website",
   images: [{
-    url: "https://example.com/og.png",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXQo_evXZkDZvRquS1k2Ws3-WGmthHxKh5G_P40Qrpwg&s",
   }],
 }
 }
