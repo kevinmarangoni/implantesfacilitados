@@ -22,7 +22,7 @@ const Header:React.FC<{t: TranslationObject}> = ({t}) => {
     <Container>
       <Content>
         <FixedHeader>
-          <FixedContent isTopPage={isTopPage}>
+          <FixedContent $isTopPage={isTopPage}>
             <div>
               <WorkTime>{t.global.hour[0]}</WorkTime>
               <Contact><div>{t.global.phone}</div><div>{t.global.whatsapp}</div></Contact>
@@ -62,14 +62,14 @@ const Content = styled.div``
 const FixedHeader = styled.div`
 height: 40px;
 `
-const FixedContent = styled.div<{isTopPage: boolean}>`
+const FixedContent = styled.div<{$isTopPage: boolean}>`
 height: 40px;
 width: 100%;
 position: fixed;
 z-index: 999;
 background-color: ${({theme})=> theme.color.background[60]};
 font-size: ${({theme})=> theme.sizes.font.paragraph.sm};
-box-shadow: ${({isTopPage})=> !isTopPage ? '0 4px 8px rgba(0, 0, 0, 0.1)': 'none'};
+box-shadow: ${({$isTopPage})=> !$isTopPage ? '0 4px 8px rgba(0, 0, 0, 0.1)': 'none'};
 display: flex;
 flex-direction: row;
 justify-content: center;
