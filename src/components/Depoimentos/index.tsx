@@ -7,7 +7,7 @@ import Caroussel from './components/Caroussel'
 import { useWindowSize } from 'usehooks-ts'
 import Button from '../Button'
 
-const Depoimentos:React.FC<{t: TranslationObject}> = ({t}) => {
+const Depoimentos:React.FC<{id:string, t: TranslationObject}> = ({id, t}) => {
   const [viewport, setViewport] = useState(1)
   const reviewList = reviews ?? []
 
@@ -35,7 +35,7 @@ const Depoimentos:React.FC<{t: TranslationObject}> = ({t}) => {
   },[width])
 
   return (
-    <Container>
+    <Container id={id}>
       <Content>
         <TitleSection>
           <Title>{t.testimony.title}</Title>

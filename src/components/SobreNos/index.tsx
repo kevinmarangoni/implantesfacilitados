@@ -3,9 +3,9 @@ import { TranslationObject } from '@/translation'
 import React from 'react'
 import Button from '../Button'
 
-const SobreNos:React.FC<{t: TranslationObject}> = ({t}) => {
+const SobreNos:React.FC<{id:string, t: TranslationObject}> = ({id, t}) => {
   return (
-    <Container>
+    <Container id={id}>
       <Content>
         <TitleSection>
           <Title dangerouslySetInnerHTML={{ __html: t.about_us.title }} />

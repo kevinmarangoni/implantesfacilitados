@@ -1,7 +1,7 @@
 import { TranslationObject } from '@/translation'
 import React from 'react'
 
-const Agende:React.FC<{t: TranslationObject}> = ({t}) => {
+const Agende:React.FC<{id:string, t: TranslationObject}> = ({id, t}) => {
   return (
     <div>{t.schedule.title}</div>
   )

@@ -7,8 +7,11 @@ import Image from 'next/image'
 import logo from '@/assets/images/logo.png'
 import heroImage from '@/assets/images/hero.webp'
 import Button from '../Button'
+import { useWindowSize } from 'usehooks-ts'
 
-const Hero:React.FC<{t: TranslationObject}> = ({t}) => {
+const Hero:React.FC<{id:string, t: TranslationObject}> = ({id, t}) => {
+  const { width } = useWindowSize()
+  
   return (
     <Container>
       <Content>
@@ -18,9 +21,11 @@ const Hero:React.FC<{t: TranslationObject}> = ({t}) => {
           </IllustrationSection>
         </LeftSection>
         <RightSection>
-          <LogoSection>
-            <Logo src={logo} alt={"logo"} />
-          </LogoSection>
+          {width < 900 && (
+            <LogoSection>
+              <Logo src={logo} alt={"logo"} />
+            </LogoSection>
+          )}
           <TitleSection>
             <h1>{t.hero.title}</h1>
             <p>{t.hero.description.part1}{" "}<span>{t.hero.description.part2}</span>{" "}{t.hero.description.part3}</p>
@@ -68,18 +73,20 @@ const RightSection = styled.div`
 const IllustrationSection = styled.div`
   width: 400px;
   height: fit-content;
-
   @media (${({theme})=> theme.sizes.breakpoints.smartphone}) {
     width: 100%;
     max-width: 400px;
   }
 `
-const LeftSection = styled.div``
+const LeftSection = styled.div`
+
+`
 const LogoSection = styled.div`
-  height: 105px;
+  height: 80px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  margin-bottom: 24px;
   @media (${({theme})=> theme.sizes.breakpoints.smartphone}) {
     justify-content: center;
   }

@@ -36,13 +36,13 @@ export default function Home() {
       <Content>
         {!isMobile && <Header t={t} />}
         <Sections>
-          <Hero t={t} />
-          <Tratamento t={t} />
-          <Diferenciais t={t} />
-          <SobreNos t={t} />
-          <Depoimentos t={t} />
-          <Agende t={t} />
-          <Mapa t={t} />
+          <Hero id={"home"}  t={t} />
+          <Tratamento id={"tratamento"} t={t} />
+          <Diferenciais id={"diferenciais"}  t={t} />
+          <SobreNos id={"clinica"}  t={t} />
+          <Depoimentos id={"depoimentos"}  t={t} />
+          {/* <Agende t={t} /> */}
+          {/* <Mapa t={t} /> */}
         </Sections>
         <Footer t={t} />
       </Content>

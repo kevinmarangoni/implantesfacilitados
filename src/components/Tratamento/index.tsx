@@ -7,12 +7,12 @@ import ToothIcon from '@/assets/illustration/tooth';
 import DiagnosisIcon from '@/assets/illustration/diagnosis';
 import InsuranceIcon from '@/assets/illustration/insurance';
 
-const Tratamento: React.FC<{t: TranslationObject}> = ({t}) => {
+const Tratamento: React.FC<{id:string, t: TranslationObject}> = ({id, t}) => {
 
   const icons = [<CrossIcon key={0}/>, <ToothIcon key={1}/>, <DiagnosisIcon key={2}/>, <InsuranceIcon key={3}/>]
 
   return (
-    <Container>
+    <Container id={id}>
       <Content>
       <TitleSection>
       <Title dangerouslySetInnerHTML={{ __html: t.treatment.title }} />

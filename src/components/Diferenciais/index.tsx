@@ -9,12 +9,12 @@ import autoclave from '/src/assets/images/Diferenciais/autoclave.webp'
 import CardItem from './components/CardItem'
 import Button from '../Button'
 
-const Diferenciais:React.FC<{t: TranslationObject}> = ({t}) => {
+const Diferenciais:React.FC<{id:string, t: TranslationObject}> = ({id, t}) => {
 
   const photos = [space, procedure, workers, xray, autoclave]
 
   return (
-    <Container>
+    <Container id={id}>
       <Content>
         <TitleSection>
           <Title dangerouslySetInnerHTML={{ __html: t.differentials.title }} />
