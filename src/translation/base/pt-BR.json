@@ -1,8 +1,8 @@
 {
     "global": {
         "hour":[
-            "Segunda – Sexta: 9:00 as 19:00",
-            "Sábado – 9:00 as 13:00"
+            "Segunda a Sexta - 9h às 19h",
+            "Sábado - 9h às 13h"
         ],
         "social":{
             "instagram":"https://instagram.com/endodontiafacilitada?igshid=Mzc1MmZhNjY=%20%20",
@@ -106,7 +106,7 @@
                 "text": "Controle rígido de biossegurança (conjunto de procedimentos que evitam o contágio de bactérias e microorganismos entre os pacientes)"
             }
         ],
-        "button": "Venha se tratar conosco!",
+        "button": "Venha se cuidar conosco!",
         "redirectText": "Olá, poderia me esclarecer melhor a respeito dos tratamentos que vocês oferecem?"
     },
     "testimony": {
@@ -117,7 +117,7 @@
         "button": "Já se consultou? Nos Avalie!"
     },
     "schedule": {
-        "title": "Clique no botão abaixo e agende agora seu horário!",
+        "title": "Agendar <span>consulta</span>",
         "description": "Comece o caminho para um sorriso mais feliz e saudável!",
         "button": "Agende sua consulta hoje mesmo sem compromisso"
     },
@@ -126,12 +126,29 @@
         "address": "R. Frei Gaspar, 941 – Centro, São Bernardo do Campo – SP, 09720-440",
         "button": "Agende sua consulta conosco!"
     },
+    "form":{
+        "fields": {
+            "name": "Nome",
+            "email": "Email",
+            "phone": "Telefone",
+            "message": "Mensagem"
+        },
+        "buttons": {
+            "submit": "Enviar dados de agendamento"
+        }
+    },
     "footer": {
         "working": {
             "title": "Horário de Atendimento"
         },
         "social":{
             "title": "Nossas redes sociais:"
+        },
+        "location": {
+            "title": "Onde estamos"
+        },
+        "contact": {
+            "title": "Contato"
         },
         "rights": "Copyright 2023 © Endodontia Facilitada-  Todos os direitos reservados.",
         "made_by": "Feito por"

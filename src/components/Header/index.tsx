@@ -71,7 +71,7 @@ const Header: React.FC<{ t: TranslationObject }> = ({ t }) => {
               <li onClick={() => scrollToSection("diferenciais")}>{t.header.menu.differentials}</li>
               <li onClick={() => scrollToSection("tratamento")}>{t.header.menu.treatment}</li>
               <li onClick={() => scrollToSection("depoimentos")}>{t.header.menu.testimony}</li>
-              {/* <li onClick={() => scrollToSection("contact")}>{t.header.menu.contact}</li> */}
+              <li onClick={() => scrollToSection("contato")}>{t.header.menu.contact}</li>
             </MenuSection>
             <div></div>
           </article>

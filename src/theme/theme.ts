@@ -36,6 +36,7 @@ export const light: ITheme = {
     color: {
         background: {
             60: "#F0F0F0",
+            50: "#DEDCDC",
             30: "#FAFAFA",
             20: "#f5dbbb",
             10: "#CEC1AD",
@@ -53,6 +54,7 @@ export const dark: ITheme = {
     color: {
         background: {
             60: "#1a1a1a",
+            50: "#362626",
             30: "#262626",
             20: "#333333",
             10: "#404040",

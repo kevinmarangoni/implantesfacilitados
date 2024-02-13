@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react'
 import styled from 'styled-components'
 import { useRouter } from 'next/navigation'
 
-const Button:React.FC<{children?:ReactNode, text?: string, isGoogleRelated?: boolean, $color?: string}> = ({children, text, isGoogleRelated, $color}) => {
+const Button:React.FC<{children?:ReactNode, text?: string, isGoogleRelated?: boolean, $color?: string, onClickRun?: ()=>void}> = ({children, text, isGoogleRelated, $color, onClickRun}) => {
   const router = useRouter()
   const number = 5511966717274
 
@@ -15,8 +15,16 @@ const Button:React.FC<{children?:ReactNode, text?: string, isGoogleRelated?: boo
     router.push(url)
   }
 
+  const handleClick = () => {
+    if (onClickRun) {
+      onClickRun();
+    } else {
+      handleRedirect();
+    }
+  };
+
   return (
-    <StyledButton $color={$color} onClick={()=>{handleRedirect()}}>{children ?? "Agendar consulta"}</StyledButton>
+    <StyledButton $color={$color} onClick={handleClick}>{children ?? "Agendar consulta"}</StyledButton>
   )
 }
 

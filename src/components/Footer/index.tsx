@@ -1,11 +1,17 @@
-import styled from 'styled-components'
+import styled, { useTheme } from 'styled-components'
 import { TranslationObject } from '@/translation'
 import React from 'react'
 import Image from 'next/image'
 import logo from '@/assets/images/logo.png'
 import Link from 'next/link'
+import FacebookIcon from '@/assets/icons/facebook'
+import InstagramIcon from '@/assets/icons/instagram'
+import WhatsappIcon from '@/assets/icons/whatsapp'
 
 const Footer: React.FC<{ t: TranslationObject }> = ({ t }) => {
+
+  const { color } = useTheme()
+
   return (
     <Container>
       <Content>
@@ -26,11 +32,11 @@ const Footer: React.FC<{ t: TranslationObject }> = ({ t }) => {
               </div>
               <Text>{t.global.email}</Text>
             </ContactSection>
-            <SocialSection>
-              <StyledLink href={t.global.social.facebook}>A</StyledLink>
-              <StyledLink href={t.global.social.instagram}>B</StyledLink>
-              <StyledLink href={t.global.social.whatsapp}>C</StyledLink>
-            </SocialSection>
+            <Social>
+                <Link href={"https://www.facebook.com/endodontiafacilitada/"}><FacebookIcon color={color.font[60]} /></Link>
+                <Link href={"https://www.instagram.com/endodontiafacilitada"}><InstagramIcon color={color.font[60]} /></Link>
+                <Link href={"https://wa.link/5evhq7"}><WhatsappIcon color={color.font[60]} /></Link>
+              </Social>
           </article>
         </InfoFooter>
         <CopyrightFooter>
@@ -47,10 +53,6 @@ export default Footer
 
 const Container = styled.div`
 width: 100%;
-
-/* *{
-  border: 1px dashed red;
-} */
 `
 const Content = styled.div`
   height: 100%;
@@ -67,7 +69,7 @@ flex-direction: row;
 gap: 16px;
 justify-content: center;
 align-items: center;
-background-color: ${({theme})=> theme.color.background[10]};
+background-color: ${({theme})=> theme.color.background[50]};
 article{
   width: 100%;
   max-width: 1000px;
@@ -110,7 +112,7 @@ div{
   flex-direction: row;
   }
 `
-const SocialSection = styled.div`
+const Social = styled.div`
   display: flex;
   flex-direction: column;
   gap: 8px;

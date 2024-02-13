@@ -7,6 +7,7 @@ export interface ITheme {
 export interface IThemeColor {
     background: {
         60: "#F0F0F0" | "#1a1a1a",
+        50: "#DEDCDC" | "#362626",
         30: "#FAFAFA" | "#262626",
         20: "#f5dbbb" | "#333333",
         10: "#CEC1AD" | "#404040",

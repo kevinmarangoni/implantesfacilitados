@@ -5,7 +5,6 @@ import Diferenciais from '@/components/Diferenciais'
 import Depoimentos from '@/components/Depoimentos'
 import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
-import Mapa from '@/components/Mapa'
 import SobreNos from '@/components/SobreNos'
 import Tratamento from '@/components/Tratamento'
 import styled from 'styled-components'
@@ -39,10 +38,9 @@ export default function Home() {
           <Hero id={"home"}  t={t} />
           <Tratamento id={"tratamento"} t={t} />
           <Diferenciais id={"diferenciais"}  t={t} />
-          <SobreNos id={"clinica"}  t={t} />
+          <Agende id={"contato"} t={t} />
           <Depoimentos id={"depoimentos"}  t={t} />
-          {/* <Agende t={t} /> */}
-          {/* <Mapa t={t} /> */}
+          <SobreNos id={"clinica"}  t={t} />
         </Sections>
         <Footer t={t} />
       </Content>
@@ -76,4 +74,6 @@ const Sections = styled.div`
   gap: 56px;
   margin-bottom: 64px;
   max-width: 1000px;
+
+  
 `

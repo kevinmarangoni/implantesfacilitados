@@ -82,7 +82,7 @@ const PresentationSection = styled.div`
   background-color: ${({theme})=> theme.color.background[30]};
   border-radius: 20px;
   overflow: hidden;
-
+  box-shadow: 0px 0px 20px -5px #6d6d6d49;
   @media (${({theme})=> theme.sizes.breakpoints.smartphone}){
     flex-direction: column-reverse;
     text-align: center;
