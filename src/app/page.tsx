@@ -13,6 +13,7 @@ import useTranslation from '@/translation'
 import Header from '@/components/Header'
 import { useEffect, useState } from 'react'
 import { useWindowSize } from 'usehooks-ts'
+import Cards from '@/components/Cards'
 
 export default function Home() {
   const {t} = useTranslation()
@@ -39,6 +40,7 @@ export default function Home() {
           <Tratamento id={"tratamento"} t={t} />
           <Diferenciais id={"diferenciais"}  t={t} />
           <Agende id={"contato"} t={t} />
+          <Cards t={t} />
           <Depoimentos id={"depoimentos"}  t={t} />
           <SobreNos id={"clinica"}  t={t} />
         </Sections>
@@ -71,7 +73,7 @@ const Sections = styled.div`
   align-items: flex-start;
   flex-direction: column;
   padding: 0 16px;
-  gap: 56px;
+  gap: 70px;
   margin-bottom: 64px;
   max-width: 1000px;
 

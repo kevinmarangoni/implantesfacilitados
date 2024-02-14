@@ -81,7 +81,7 @@ const Agende: React.FC<{ id: string, t: TranslationObject }> = ({ id, t }) => {
           <FormSection>
             <Form>
               <input onChange={updateFields} name='name' maxLength={50} type="text" placeholder={t.form.fields.name} />
-              <input onChange={updateFields} name='phone' maxLength={20} type="number" placeholder={t.form.fields.phone} />
+              <input onChange={updateFields} name='phone' maxLength={20} type="tel" placeholder={t.form.fields.phone} />
               <input onChange={updateFields} name='email' maxLength={50} type="email" placeholder={t.form.fields.email} />
               <input onChange={updateFields} name='message' maxLength={500} type="text" placeholder={t.form.fields.message} />
             </Form>

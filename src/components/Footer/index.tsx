@@ -93,8 +93,6 @@ const HourSection = styled.div``
 const Title = styled.div``
 const Text = styled.div``
 
-const StyledLink = styled(Link)``
-
 const ContactSection = styled.div`
 
 div{

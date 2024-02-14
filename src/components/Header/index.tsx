@@ -10,7 +10,6 @@ import ClockIcon from '@/assets/icons/clock'
 import PhoneIcon from '@/assets/icons/phone'
 import WhatsappIcon from '@/assets/icons/whatsapp'
 import LocationIcon from '@/assets/icons/location'
-import Link from 'next/link'
 
 const Header: React.FC<{ t: TranslationObject }> = ({ t }) => {
   const scroll = useScrollPosition()
@@ -26,7 +25,7 @@ const Header: React.FC<{ t: TranslationObject }> = ({ t }) => {
     }
   }, [scroll])
 
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId: string) => {
     const sectionElement = document.getElementById(sectionId);
 
     if (sectionElement) {

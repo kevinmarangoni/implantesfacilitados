@@ -1,17 +1,16 @@
 {
     "global": {
         "hour":[
-            "Segunda a Sexta - 9h às 19h",
-            "Sábado - 9h às 13h"
+            "Segunda a Sexta - 9h às 19h"
         ],
         "social":{
             "instagram":"https://instagram.com/endodontiafacilitada?igshid=Mzc1MmZhNjY=%20%20",
             "facebook":"https://www.facebook.com/endodontiafacilitada?mibextid=LQQJ4d%20",
             "whatsapp":"https://wa.link/5evhq7"
     },
-        "phone":"(11) 96671-7274",
-        "whatsapp":"(11) 4129-2073",
-        "address":"Rua Frei Gaspar 941 - Conj. 702 Centro, São Bernardo do Campo/SP",
+        "phone":"(11) 4129-2073",
+        "whatsapp":"(11) 96671-7274",
+        "address":"R. Frei Gaspar, 941 - Ed. SP150 TRADE - CONJ 702 - Centro, São Bernardo do Campo - SP",
         "email": "endodontiafacilitada@gmail.com"
     },
     "header": {
@@ -114,17 +113,31 @@
         "description": "Veja o que nossos pacientes dizem sobre nós.",
         "excellent": "Excelente",
         "reviews_at": "resenhas no",
-        "button": "Já se consultou? Nos Avalie!"
+        "button": "Leia todas nossas Avaliações!"
     },
     "schedule": {
         "title": "Agendar <span>consulta</span>",
-        "description": "Comece o caminho para um sorriso mais feliz e saudável!",
+        "description": "Garanta um sorriso muito mais feliz, saudável e sem dor!",
         "button": "Agende sua consulta hoje mesmo sem compromisso"
     },
     "map": {
         "title": "Venha se surpreender.",
         "address": "R. Frei Gaspar, 941 – Centro, São Bernardo do Campo – SP, 09720-440",
         "button": "Agende sua consulta conosco!"
+    },
+    "cards": {
+        "urgency": {
+            "title": "Atendimento de",
+            "subtitle": "Urgência"
+        },
+        "creditCard": {
+            "title": "Pague SEM JUROS em até",
+            "subtitle": "12x no cartão"
+        },
+        "park": {
+            "title": "Local seguro com",
+            "subtitle": "Estacionamento"
+        }
     },
     "form":{
         "fields": {
