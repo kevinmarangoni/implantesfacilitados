@@ -43,7 +43,7 @@ export default function RootLayout({
         <Theme>
           <body>{children}</body>
           <GoogleAnalytics gaId="G-2015LETTD0" />
-          <GoogleTagManager gtmId="AW-10988669397" />
+          <GoogleTagManager gtmId="G-2015LETTD0" />
         </Theme>
           </StyledComponentsRegistry>
       </html>
