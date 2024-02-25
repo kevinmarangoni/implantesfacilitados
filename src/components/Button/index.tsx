@@ -1,6 +1,9 @@
+'use client'
+
 import React, { ReactNode } from 'react'
 import styled from 'styled-components'
 import { useRouter } from 'next/navigation'
+import { sendGTMEvent } from '@next/third-parties/google'
 
 const Button:React.FC<{children?:ReactNode, text?: string, isGoogleRelated?: boolean, $color?: string, onClickRun?: ()=>void}> = ({children, text, isGoogleRelated, $color, onClickRun}) => {
   const router = useRouter()
@@ -18,6 +21,10 @@ const Button:React.FC<{children?:ReactNode, text?: string, isGoogleRelated?: boo
   const handleClick = () => {
     if (onClickRun) {
       onClickRun();
+      sendGTMEvent({
+        event: `Botão com texto ${children ?? "Agendar consulta"} clicado. Texto de redirecionamento: ${text ?? 'Olá, gostaria de mais informações para tratamento e/ou agendar uma avaliação.'}. Relacionado ao Google Reviews?: ${isGoogleRelated? "SIM" : "NAO"}`,
+        value: text ?? children?.toString()
+      })
     } else {
       handleRedirect();
     }

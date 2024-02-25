@@ -3,6 +3,7 @@
 import Theme from '@/theme/ThemeContext'
 import type { Metadata } from 'next'
 import StyledComponentsRegistry from '../../lib/registry'
+import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google'
 
 export const metadata: Metadata = {
   title: 'Endodontia Facilitada',
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
 },
 openGraph: {
   type: "website",
-  url: "https://endodontiafacilitada.vercel.app",
+  url: "https://endodontiafacilitada.com.br",
   title: "Endodontia Facilitada",
   description: 'Endodontia Microscópica, Clínica e Cirúrgica. Somos referência em Tratamento de Canal Sem Dor. Acabe com a dor e o desconforto de canal. Nosso atendimento de endodontia é rápido, indolor e sem estresse.',
   siteName: "Tratamento de canal SEM DOR!",
@@ -41,6 +42,8 @@ export default function RootLayout({
           <StyledComponentsRegistry>
         <Theme>
           <body>{children}</body>
+          <GoogleAnalytics gaId="G-2015LETTD0" />
+          <GoogleTagManager gtmId="AW-10988669397" />
         </Theme>
           </StyledComponentsRegistry>
       </html>
