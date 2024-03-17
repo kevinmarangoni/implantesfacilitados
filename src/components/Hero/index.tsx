@@ -5,7 +5,7 @@ import React from 'react'
 import Image from 'next/image'
 
 import logo from '@/assets/images/logo.png'
-import heroImage from '@/assets/images/hero.webp'
+import heroImage from '@/assets/images/hero.png'
 import Button from '../Button'
 import { useWindowSize } from 'usehooks-ts'
 
@@ -56,7 +56,7 @@ padding: 16px;
 `
 const Content = styled.article`
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
   gap: 5%;
@@ -71,7 +71,7 @@ const RightSection = styled.div`
   text-align: right;
 `
 const IllustrationSection = styled.div`
-  width: 400px;
+  width: 280px;
   height: fit-content;
   @media (${({theme})=> theme.sizes.breakpoints.smartphone}) {
     width: 100%;
