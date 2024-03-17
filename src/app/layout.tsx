@@ -6,25 +6,25 @@ import StyledComponentsRegistry from '../../lib/registry'
 import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google'
 
 export const metadata: Metadata = {
-  title: 'Endodontia Facilitada',
-  description: 'Endodontia Microscópica, Clínica e Cirúrgica. Somos referência em Tratamento de Canal Sem Dor. Acabe com a dor e o desconforto de canal. Nosso atendimento de endodontia é rápido, indolor e sem estresse.',
-  keywords: ["endodontia", "facilitada", "dentista", "canal", "urgente", "urgencia", "sem dor", "tratamento", "dor", "dente", "profissional", "limpeza"],
+  title: 'Implante Facilitado',
+  description: 'Implantodontia Estética e Funcional. Somos especialistas em Implantes Dentários de Alta Qualidade. Recupere sua confiança e função mastigatória com nossos procedimentos eficientes, confortáveis e personalizados.',
+  keywords: ["implante", "facilitado", "dentista", "implantes", "urgente", "urgência", "sem dor", "tratamento", "dor", "dente", "profissional", "limpeza"],
   icons: {
     icon: ["/public/favicon.ico", "/public/favicon-16x16.png", "/public/favicon-32x32.png"],
     apple: "/public/apple-touch-icon.png"
-},
-openGraph: {
-  type: "website",
-  url: "https://endodontiafacilitada.com.br",
-  title: "Endodontia Facilitada",
-  description: 'Endodontia Microscópica, Clínica e Cirúrgica. Somos referência em Tratamento de Canal Sem Dor. Acabe com a dor e o desconforto de canal. Nosso atendimento de endodontia é rápido, indolor e sem estresse.',
-  siteName: "Tratamento de canal SEM DOR!",
-  images: [{
-    url: "https://iili.io/JcaXE5N.jpg",
-    width: 1200,
-    height: 480,
-  }],
-}
+  },
+  openGraph: {
+    type: "website",
+    url: "https://implantefacilitado.com.br",
+    title: "Implante Facilitado",
+    description: 'Implantodontia Estética e Funcional. Somos especialistas em Implantes Dentários de Alta Qualidade. Recupere sua confiança e função mastigatória com nossos procedimentos eficientes, confortáveis e personalizados.',
+    siteName: "Implante Facilitado",
+    images: [{
+      url: "https://iili.io/JcaXE5N.jpg",
+      width: 1200,
+      height: 480,
+    }],
+  }
 }
 
 export default function RootLayout({
@@ -42,8 +42,8 @@ export default function RootLayout({
           <StyledComponentsRegistry>
         <Theme>
           <body>{children}</body>
-          <GoogleAnalytics gaId="G-2015LETTD0" />
-          <GoogleTagManager gtmId="G-2015LETTD0" />
+          {/* <GoogleAnalytics gaId="G-2015LETTD0" />
+          <GoogleTagManager gtmId="G-2015LETTD0" /> */}
         </Theme>
           </StyledComponentsRegistry>
       </html>

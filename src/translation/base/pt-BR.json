@@ -1,24 +1,24 @@
 {
     "global": {
-        "hour":[
+        "hour": [
             "Segunda a Sexta - 9h às 19h"
         ],
-        "social":{
-            "instagram":"https://instagram.com/endodontiafacilitada?igshid=Mzc1MmZhNjY=%20%20",
-            "facebook":"https://www.facebook.com/endodontiafacilitada?mibextid=LQQJ4d%20",
-            "whatsapp":"https://wa.link/5evhq7"
-    },
-        "phone":"(11) 4129-2073",
-        "whatsapp":"(11) 96671-7274",
-        "address":"R. Frei Gaspar, 941 - Ed. SP150 TRADE - CONJ 702 - Centro, São Bernardo do Campo - SP",
-        "email": "endodontiafacilitada@gmail.com"
+        "social": {
+            "instagram": "https://instagram.com/implantodontiafacilitada?igshid=Mzc1MmZhNjY=%20%20",
+            "facebook": "https://www.facebook.com/implantodontiafacilitada?mibextid=LQQJ4d%20",
+            "whatsapp": "https://wa.link/5evhq7"
+        },
+        "phone": "(11) 4129-2073",
+        "whatsapp": "(11) 96671-7274",
+        "address": "R. Frei Gaspar, 941 - Ed. SP150 TRADE - CONJ 702 - Centro, São Bernardo do Campo - SP",
+        "email": "implantodontiafacilitada@gmail.com"
     },
     "header": {
         "menu": {
             "about": "Clínica",
             "differentials": "Diferenciais",
             "testimony": "Depoimentos",
-            "treatment": "Tratamentos",
+            "treatment": "Implantes",
             "schedule": "Agendar",
             "contact": "Contato",
             "map": "Localização"
@@ -26,102 +26,102 @@
         "button": "AGENDE SUA CONSULTA"
     },
     "hero": {
-        "title": "Endodontia Microscópica, Clínica e Cirúrgica",
+        "title": "Implante Facilitado: Especialistas em Implantes Dentários",
         "description": {
-            "part1": "Somos referência em",
-            "part2": "Tratamento de Canal Sem Dor.",
-            "part3": "Acabe com a dor e o desconforto de canal. Nosso atendimento de endodontia é rápido, indolor e sem estresse."
+            "part1": "Somos especialistas em",
+            "part2": "Implantes Dentários de Alta Qualidade.",
+            "part3": "Recupere sua confiança e função mastigatória. Nossos procedimentos de implantes são eficientes, confortáveis e personalizados."
         },
-        "button": "Marque sua consulta!"
+        "button": "FALE COM UM ESPECIALISTA!"
     },
     "treatment": {
-        "title": "Conheça nossos <span>tratamentos</span>",
-        "text": "Realize seu tratamento com qualidade e cuidados excepcionais para sua saúde bucal.",
+        "title": "Conheça nossos <span>procedimentos de implante</span>",
+        "text": "Realize seu implante com qualidade e cuidados excepcionais para a saúde bucal duradoura.",
         "cards": [
             {
-                "title": "Atendimento de Urgência",
-                "text": "Situações de dor ou lesão dental que requerem atenção imediata. Consiga uma consulta agora mesmo!",
+                "title": "Implantes de Emergência",
+                "text": "Soluções rápidas e eficazes para substituição imediata de dentes perdidos. Agende sua consulta agora mesmo!",
                 "button": "Saiba mais",
-                "redirectText": "Tenho uma emergência e desejo marcar uma consulta."
+                "redirectText": "Estou precisando de um implante de emergência, como posso agendar uma consulta?"
             },
             {
-                "title": "Endodontia Microscópica",
-                "text": "Resolução de Casos Complexos como: dente calcificado, perfurado, instrumento fraturado e Retratamento.",
+                "title": "Implantodontia Estética",
+                "text": "Procedimentos para a recuperação estética e funcional, garantindo um sorriso natural e harmonioso.",
                 "button": "Saiba mais",
-                "redirectText": "Olá, poderia me esclarecer melhor a respeito da Endodontia Microscópica?"
+                "redirectText": "Olá, poderia me explicar mais sobre a Implantodontia Estética?"
             },
             {
-                "title": "Diagnóstico Digital",
-                "text": "Exames realizados com Raio-x Digital, scanner, cameras e microscópio capaz de aumentar em até 40x o tamanho do dente.",
+                "title": "Avaliação Digital",
+                "text": "Utilizamos tecnologia avançada, para avaliar detalhadamente a condição bucal.",
                 "button": "Saiba mais",
-                "redirectText": "Olá, poderia me esclarecer melhor a respeito do Diagnóstico Digital?"
+                "redirectText": "Olá, como funciona a Avaliação Digital para implantes dentários?"
             },
             {
-                "title": "Prevenção Bucal",
-                "text": "Conjunto de medidas visando preservar a saúde bucal, evitando ou minimizando a incidência de doenças e problemas dentais.",
+                "title": "Prevenção e Manutenção",
+                "text": "Cuidados preventivos e acompanhamento pós-implante para garantir a durabilidade e sucesso a longo prazo.",
                 "button": "Saiba mais",
-                "redirectText": "Olá, poderia me esclarecer melhor a respeito da Prevenção Bucal na clínica?"
+                "redirectText": "Olá, quais são os cuidados necessários para a manutenção de implantes dentários?"
             }
         ]
     },
     "about_us": {
         "title": "Sobre a <span>clínica</span>",
-        "subtitle": "Conheça um pouco sobre nós, nossos valores e missão",
+        "subtitle": "Conheça um pouco sobre nós, nossos valores e missão na área de implantes dentários",
         "text": {
-            "first": "A Endodontia Facilitada, clínica de endodontia na região do ABC é especializada no tratamento de canal, atuando com o que há de mais moderno na odontologia, utilizando as técnicas mais avançadas em endodontia. ",
-            "second": "Com o uso do MICROSCÓPIO o especialista em canal garante um tratamento mais preciso e eficiente, evitando possíveis complicações no futuro.",
-            "third": "Além disso, a clínica conta com profissionais capacitados e experientes em endodontia microscópica, clínica e cirúrgica. Garantindo um atendimento humanizado de excelência.  Se você busca realizar tratamento de canal de qualidade, a endodontia facilitada é uma excelente opção."
+            "first": "A Implante Facilitado é especializada em procedimentos avançados de implantes dentários na região do ABC. Utilizamos tecnologias de última geração para oferecer os melhores resultados aos nossos pacientes.",
+            "second": "Com a abordagem personalizada, garantimos a eficiência e o conforto em cada procedimento de implante. Nossa equipe é composta por profissionais experientes em implantodontia estética e funcional.",
+            "third": "Se você busca soluções de implantes dentários de alta qualidade, a Implante Facilitado é a escolha ideal para recuperar seu sorriso com confiança."
         },
         "button": "Agende já sua Consulta",
-        "redirectText": "Olá, desejo marcar uma consulta, como faço?"
+        "redirectText": "Olá, desejo marcar uma consulta para avaliação de implantes, como faço?"
     },
     "differentials": {
         "title": "Nosso <span>diferencial</span>",
-        "subtitle": "Conheça alguns dos diferenciais e benefícios que podemos lhe oferecer",
+        "subtitle": "Conheça alguns dos benefícios exclusivos que oferecemos para procedimentos de implante dentário",
         "cards": [
             {
                 "img": "space",
-                "title": "Espaço confortável",
-                "text": "Conforto e ambiente climatizado com Wifi / Tv para oferecer a você uma experiência agradável, curtindo seu filme, serie e artista preferido durante todo o tratamento."
+                "title": "Ambiente Acolhedor",
+                "text": "Espaço confortável com ambiente climatizado, Wi-Fi e TV para proporcionar uma experiência agradável durante todo o processo de implante."
             },
             {
                 "img": "procedure",
-                "title": "Procedimentos indolores",
-                "text": "Atuamos com o que há de mais moderno na odontologia, priorizamos o seu bem-estar. Disponibilizamos os melhores recursos para resolução do seu caso com total tranquilidade e sem dor."
+                "title": "Procedimentos Confortáveis",
+                "text": "Utilizamos tecnologia avançada para procedimentos indolores. Priorizamos seu conforto e disponibilizamos recursos de alta qualidade para garantir tranquilidade durante o processo de implante."
             },
             {
                 "img": "workers",
-                "title": "Equipe altamente qualificada",
-                "text": "Nossos especialistas estão sempre dispostos a passar todas as explicações necessárias que facilitem o seu entendimento sobre todo o tratamento que será realizado, e acompanhe melhor todo o processo."
+                "title": "Equipe Especializada",
+                "text": "Nossos especialistas fornecem explicações detalhadas e acompanham você em todo o processo do tratamento de implante, garantindo compreensão e confiança."
             },
             {
                 "img": "xray",
-                "title": "Atendimento Humanizado",
-                "text": "Na Endodontia Facilitada priorizamos o seu bem-estar. Na primeira consulta, ouviremos quais são os seus objetivos e desejos, e planejaremos o tratamento mais adequado as suas vontades."
+                "title": "Atendimento Personalizado",
+                "text": "Priorizamos seu bem-estar. Na primeira consulta, ouvimos seus objetivos e planejamos o tratamento de implante mais adequado às suas necessidades e desejos."
             },
             {
                 "img": "autoclave",
                 "title": "Biossegurança e Esterilização",
-                "text": "Controle rígido de biossegurança (conjunto de procedimentos que evitam o contágio de bactérias e microorganismos entre os pacientes)"
+                "text": "Compromisso rigoroso com biossegurança para evitar contaminações entre os procedimentos de implante."
             }
         ],
-        "button": "Venha se cuidar conosco!",
-        "redirectText": "Olá, poderia me esclarecer melhor a respeito dos tratamentos que vocês oferecem?"
+        "button": "Transforme seu sorriso conosco!",
+        "redirectText": "Olá, gostaria de saber mais sobre os procedimentos de implante que vocês oferecem?"
     },
     "testimony": {
         "title": "Depoimentos",
-        "description": "Veja o que nossos pacientes dizem sobre nós.",
+        "description": "Veja o que nossos pacientes dizem sobre os procedimentos de implante.",
         "excellent": "Excelente",
-        "reviews_at": "resenhas no",
-        "button": "Leia todas nossas Avaliações!"
+        "reviews_at": "avaliações no",
+        "button": "Leia todos os nossos Depoimentos!"
     },
     "schedule": {
-        "title": "Agendar <span>consulta</span>",
-        "description": "Garanta um sorriso muito mais feliz, saudável e sem dor!",
+        "title": "Agendar <span>consulta para implante</span>",
+        "description": "Garanta um sorriso mais saudável e funcional com nossos procedimentos de implante!",
         "button": "Agende sua consulta hoje mesmo sem compromisso"
     },
     "map": {
-        "title": "Venha se surpreender.",
+        "title": "Venha descobrir a transformação.",
         "address": "R. Frei Gaspar, 941 – Centro, São Bernardo do Campo – SP, 09720-440",
         "button": "Agende sua consulta conosco!"
     },
@@ -132,14 +132,14 @@
         },
         "creditCard": {
             "title": "Pague SEM JUROS em até",
-            "subtitle": "12x no cartão"
+            "subtitle": "18x no cartão"
         },
         "park": {
-            "title": "Local seguro com",
-            "subtitle": "Estacionamento"
+            "title": "Estacionamento seguro",
+            "subtitle": "Disponível"
         }
     },
-    "form":{
+    "form": {
         "fields": {
             "name": "Nome",
             "email": "Email",
@@ -147,14 +147,14 @@
             "message": "Mensagem"
         },
         "buttons": {
-            "submit": "Enviar dados de agendamento"
+            "submit": "Enviar dados para agendamento"
         }
     },
     "footer": {
         "working": {
             "title": "Horário de Atendimento"
         },
-        "social":{
+        "social": {
             "title": "Nossas redes sociais:"
         },
         "location": {
@@ -163,7 +163,7 @@
         "contact": {
             "title": "Contato"
         },
-        "rights": "Copyright 2023 © Endodontia Facilitada-  Todos os direitos reservados.",
+        "rights": "Copyright 2023 © Implante Facilitado - Todos os direitos reservados.",
         "made_by": "Feito por"
     }
 }

@@ -36,28 +36,28 @@ export const light: ITheme = {
     color: {
         background: {
             60: "#F0F0F0",
-            50: "#DEDCDC",
-            30: "#FAFAFA",
-            20: "#f5dbbb",
-            10: "#CEC1AD",
+            50: "#DAD4E5",
+            30: "#fff",
+            20: "#C9B8E3",
+            10: "#A48FB3",
         },
         font: {
-            60: "#472f20",
-            30: "#FAFAFA",
-            10: "#BC8F4F",
+            30: "#fff",
+            60: "#736E9D",
+            10: "#A89CBF",
         }  
     },
-    sizes:sizes
+    sizes: sizes
 }
 
 export const dark: ITheme = {
     color: {
         background: {
             60: "#1a1a1a",
-            50: "#362626",
+            50: "#333333",
             30: "#262626",
-            20: "#333333",
-            10: "#404040",
+            20: "#3C3A55",
+            10: "#56537E",
         },
         font: {
             60: "#ffffff",
@@ -65,5 +65,5 @@ export const dark: ITheme = {
             10: "#999999",
         }  
     },
-    sizes:sizes
+    sizes: sizes
 }

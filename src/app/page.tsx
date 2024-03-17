@@ -49,7 +49,7 @@ export default function Home() {
           <Diferenciais id={"diferenciais"}  t={t} />
           <Agende id={"contato"} t={t} />
           <Cards t={t} />
-          <Depoimentos id={"depoimentos"}  t={t} />
+          {/* <Depoimentos id={"depoimentos"}  t={t} /> */}
           <SobreNos id={"clinica"}  t={t} />
         </Sections>
         <Footer t={t} />
@@ -65,7 +65,7 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  background: linear-gradient(180deg, #CEC1AD 0%, #F0F0F0 27.63%);
+  background: linear-gradient(180deg, #e0c9ff 0%, #f0f0f0 27.63%);
 `
 const Content = styled.div`
   display: flex;
