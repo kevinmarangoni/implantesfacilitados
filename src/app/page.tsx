@@ -51,7 +51,7 @@ export default function Home() {
         {!isMobile && <Header t={t} />}
         <Sections>
           <Hero id={"home"}  t={t} />
-          <BeforeAfterSlider beforeImage={before} afterImage={after} />
+          {/* <BeforeAfterSlider beforeImage={before} afterImage={after} /> */}
           <Tratamento id={"tratamento"} t={t} />
           <Diferenciais id={"diferenciais"}  t={t} />
           <Agende id={"contato"} t={t} />
