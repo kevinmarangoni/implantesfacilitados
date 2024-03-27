@@ -45,7 +45,7 @@ const Card:React.FC<ICardProps> = ({ title, description, button, icon, index, re
 };
 
 const Container = styled.section`
-  height: 370px;
+  height: 450px;
   width: 23%;
   max-width: 250px;
   display: flex;
@@ -110,6 +110,18 @@ const Title = styled.p`
 
 const Description = styled.p`
   text-align: center;
+  max-height: 180px;
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar{
+  width: 5px;
+  background-color: ${({theme})=> theme.color.background[60]};
+}
+
+&::-webkit-scrollbar-thumb{
+  background-color: ${({theme})=> theme.color.background[20]};
+  border-radius: 20px;
+}
 `;
 
 export default Card;

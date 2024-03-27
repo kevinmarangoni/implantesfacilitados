@@ -8,8 +8,8 @@
             "facebook": "https://www.facebook.com/implantodontiafacilitada?mibextid=LQQJ4d%20",
             "whatsapp": "https://wa.link/5evhq7"
         },
-        "phone": "(11) 4129-2073",
-        "whatsapp": "(11) 96671-7274",
+        "phone": "(11) 4335-5335",
+        "whatsapp": "(11) 4335-5335",
         "address": "R. Frei Gaspar, 941 - Ed. SP150 TRADE - CONJ 702 - Centro, São Bernardo do Campo - SP",
         "email": "implantodontiafacilitada@gmail.com"
     },
@@ -39,28 +39,52 @@
         "text": "Realize seu implante com qualidade e cuidados excepcionais para a saúde bucal duradoura.",
         "cards": [
             {
-                "title": "Implantes de Emergência",
-                "text": "Soluções rápidas e eficazes para substituição imediata de dentes perdidos. Agende sua consulta agora mesmo!",
+                "title": "Implantes dentários múltiplos e unitários",
+                "text": "Implantes dentários múltiplos são indicados para reabilitação de arcadas completas, enquanto implantes unitários são utilizados em casos de perda de um ou poucos dentes. Ambos oferecem resultados estéticos e funcionais excelentes quando realizados por profissionais capacitados.",
                 "button": "Saiba mais",
                 "redirectText": "Estou precisando de um implante de emergência, como posso agendar uma consulta?"
             },
             {
-                "title": "Implantodontia Estética",
-                "text": "Procedimentos para a recuperação estética e funcional, garantindo um sorriso natural e harmonioso.",
+                "title": "Protese protocolo com carga imediata",
+                "text": "É uma opção para pacientes que desejam reabilitar a arcada dentária em um curto período. O procedimento permite a instalação da prótese logo após a cirurgia de implante, proporcionando estabilidade e conforto.",
                 "button": "Saiba mais",
-                "redirectText": "Olá, poderia me explicar mais sobre a Implantodontia Estética?"
+                "redirectText": "Olá, poderia me explicar mais sobre a Protese protocolo com carga imediata?"
             },
             {
-                "title": "Avaliação Digital",
-                "text": "Utilizamos tecnologia avançada, para avaliar detalhadamente a condição bucal.",
+                "title": "Cirurgia sob sedação consciente",
+                "text": "Uma técnica que utiliza medicamentos para induzir um estado de relaxamento e conforto durante o procedimento. É uma opção segura e eficaz para pacientes com ansiedade ou medo de procedimentos invasivos.",
                 "button": "Saiba mais",
-                "redirectText": "Olá, como funciona a Avaliação Digital para implantes dentários?"
+                "redirectText": "Olá, como funciona a Cirurgia sob sedação consciente?"
+            },
+            {
+                "title": "Cirurgia de enxertos e reconstrução tecidual",
+                "text": "A cirurgia de enxertos e reconstrução tecidual é indicada para restaurar a função e estética de áreas danificadas da boca, em casos de perda óssea e falta de dimensão gengival conseguimos reconstruir ossos, músculos e pele do local.",
+                "button": "Saiba mais",
+                "redirectText": "Olá, como funciona a Cirurgia de enxertos e reconstrução tecidual?"
+            },
+            {
+                "title": "Reabilitação de dentes e implantes com porcelana",
+                "text": "A reabilitação de dentes e implantes com porcelana é uma técnica que utiliza material resistente e estético para reconstruir a dentição. Proporciona resultado natural e duradouro, devolvendo a autoestima e a função mastigatória do paciente.",
+                "button": "Saiba mais",
+                "redirectText": "Olá, como funciona a Reabilitação de dentes e implantes com porcelana?"
+            },
+            {
+                "title": "Cirurgia Guiada",
+                "text": "Meu irmão vai bolar um texto então não se preocupe, pode usar chatgpt.",
+                "button": "Saiba mais",
+                "redirectText": "Olá, poderia me explicar mais sobre a Cirurgia Guiada?"
             },
             {
                 "title": "Prevenção e Manutenção",
                 "text": "Cuidados preventivos e acompanhamento pós-implante para garantir a durabilidade e sucesso a longo prazo.",
                 "button": "Saiba mais",
-                "redirectText": "Olá, quais são os cuidados necessários para a manutenção de implantes dentários?"
+                "redirectText": "Olá, como funciona a Prevenção e Manutenção?"
+            },
+            {
+                "title": "Planejamento e Fluxo Digital",
+                "text": "Meu irmão vai bolar um texto então não se preocupe, pode usar chatgpt.",
+                "button": "Saiba mais",
+                "redirectText": "Olá, como funciona a Planejamento e Fluxo Digital?"
             }
         ]
     },

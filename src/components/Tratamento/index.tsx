@@ -61,11 +61,13 @@ const Subtitle = styled.p``
 const CardsSection = styled.div`
   display: flex;
   flex-direction: row; 
-  gap: 16px;
+  row-gap: 48px;
+  column-gap: 16px;
   flex-wrap: wrap;
-
   margin-top: 70px;
+
     @media (${({theme})=> theme.sizes.breakpoints.smartphone}){
+      row-gap: 16px;
       margin-top: 24px;
   }
 `

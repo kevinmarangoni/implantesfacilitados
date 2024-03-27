@@ -36,18 +36,18 @@ export const light: ITheme = {
     color: {
         background: {
             60: "#F0F0F0",
-            50: "#DAD4E5",
-            30: "#fff",
-            20: "#C9B8E3",
-            10: "#A48FB3",
+            50: "#DEDCDC",
+            30: "#FAFAFA",
+            20: "#f5dbbb",
+            10: "#CEC1AD",
         },
         font: {
-            30: "#fff",
-            60: "#736E9D",
-            10: "#A89CBF",
+            60: "#472f20",
+            30: "#FAFAFA",
+            10: "#BC8F4F",
         }  
     },
-    sizes: sizes
+    sizes:sizes
 }
 
 export const dark: ITheme = {
