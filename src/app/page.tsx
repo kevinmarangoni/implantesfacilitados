@@ -16,10 +16,7 @@ import Header from '@/components/Header'
 import { useEffect, useState } from 'react'
 import { useWindowSize } from 'usehooks-ts'
 import Cards from '@/components/Cards'
-import BeforeAfterSlider from '@/components/BeforeAfter'
-
-import after from '@/assets/images/after.png'
-import before from '@/assets/images/before.png'
+import AntesDepois from '@/components/AntesDepois'
 
 export default function Home() {
   const {t} = useTranslation()
@@ -51,8 +48,8 @@ export default function Home() {
         {!isMobile && <Header t={t} />}
         <Sections>
           <Hero id={"home"}  t={t} />
-          <BeforeAfterSlider beforeImage={before} afterImage={after} />
           <Tratamento id={"tratamento"} t={t} />
+          <AntesDepois t={t} />
           <Diferenciais id={"diferenciais"}  t={t} />
           <Agende id={"contato"} t={t} />
           <Cards t={t} />

@@ -1,15 +1,28 @@
 import { TranslationObject } from '@/translation';
 import React from 'react';
 import Card from '@/components/Tratamento/components/card/Card'; 
-import CrossIcon from '@/assets/illustration/cross';
 import styled from 'styled-components';
 import ToothIcon from '@/assets/illustration/tooth';
-import DiagnosisIcon from '@/assets/illustration/diagnosis';
+import SyringeIcon from '@/assets/illustration/syringe';
 import InsuranceIcon from '@/assets/illustration/insurance';
+import TeethIcon from '@/assets/illustration/teeth';
+import SurgeryIcon from '@/assets/illustration/surgery';
+import PlanningIcon from '@/assets/illustration/planning';
+import PorcelainToothIcon from '@/assets/illustration/porcelain';
+import PreventionIcon from '@/assets/illustration/prevention';
 
 const Tratamento: React.FC<{id:string, t: TranslationObject}> = ({id, t}) => {
 
-  const icons = [<CrossIcon key={0}/>, <ToothIcon key={1}/>, <DiagnosisIcon key={2}/>, <InsuranceIcon key={3}/>]
+  const icons = [
+  <TeethIcon key={0}/>, 
+  <ToothIcon key={1}/>, 
+  <SyringeIcon key={2}/>, 
+  <InsuranceIcon key={3}/>,
+  <PorcelainToothIcon key={4}/>,
+  <SurgeryIcon key={5}/>,
+  <PreventionIcon key={6}/>,
+  <PlanningIcon key={7}/>,
+]
 
   return (
     <Container id={id}>
@@ -31,6 +44,7 @@ const Tratamento: React.FC<{id:string, t: TranslationObject}> = ({id, t}) => {
         />
       ))}
         </CardsSection>
+
       </Content>
     </Container>
   );

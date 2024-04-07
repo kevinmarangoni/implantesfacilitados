@@ -4,12 +4,14 @@ import styled from 'styled-components';
 
 const Container = styled.div`
   position: relative;
-  width: 100%; /* Define o tamanho do componente como 100% do contêiner pai */
+  width: 100%;
 `;
 
 const BeforeAfterContainer = styled.div`
   position: relative;
-  width: 100%; /* Define o tamanho do componente como 100% do contêiner pai */
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
 `;
 
 const BeforeImage = styled(Image)`

@@ -26,13 +26,13 @@
         "button": "AGENDE SUA CONSULTA"
     },
     "hero": {
-        "title": "Implante Facilitado: Especialistas em Implantes Dentários",
+        "title": "Especialistas em Implantes Dentários",
         "description": {
             "part1": "Somos especialistas em",
             "part2": "Implantes Dentários de Alta Qualidade.",
             "part3": "Recupere sua confiança e função mastigatória. Nossos procedimentos de implantes são eficientes, confortáveis e personalizados."
         },
-        "button": "FALE COM UM ESPECIALISTA!"
+        "button": "AGENDE SUA AVALIAÇÃO!"
     },
     "treatment": {
         "title": "Conheça nossos <span>procedimentos de implante</span>",
@@ -88,6 +88,11 @@
             }
         ]
     },
+    "before_after": {
+        "title":"Veja a diferença que os <span>implantes dentários</span> podem fazer",
+        "text":"Testemunhe a transformação de vidas através dos nossos casos de sucesso de implantes dentários. De sorrisos tímidos a sorrisos confiantes, cada imagem conta uma história de renovação e autoconfiança restaurada. Explore nossos antes e depois e descubra como podemos ajudar a transformar o seu sorriso também.",
+        "button":"Renove a confiança em seu sorriso também!"
+    },
     "about_us": {
         "title": "Sobre a <span>clínica</span>",
         "subtitle": "Conheça um pouco sobre nós, nossos valores e missão na área de implantes dentários",
@@ -129,7 +134,7 @@
                 "text": "Compromisso rigoroso com biossegurança para evitar contaminações entre os procedimentos de implante."
             }
         ],
-        "button": "Transforme seu sorriso conosco!",
+        "button": "QUERO SORRIR NOVAMENTE!",
         "redirectText": "Olá, gostaria de saber mais sobre os procedimentos de implante que vocês oferecem?"
     },
     "testimony": {
