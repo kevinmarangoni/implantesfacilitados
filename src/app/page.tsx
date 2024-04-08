@@ -32,16 +32,6 @@ export default function Home() {
     }
   },[width])
 
-  useEffect(()=>{
-    sendGTMEvent({
-      event: `Usuário abriu o site em um dispositivo: ${isMobile? 'Celular/Tablet' : 'Desktop'}`, value: `isMobile: ${isMobile}`
-    })
-  },[isMobile])
-
-
-
-
-
   return (
     <Container>
       <Content>
@@ -49,7 +39,7 @@ export default function Home() {
         <Sections>
           <Hero id={"home"}  t={t} />
           <Tratamento id={"tratamento"} t={t} />
-          <AntesDepois t={t} />
+          {/* <AntesDepois t={t} /> */}
           <Diferenciais id={"diferenciais"}  t={t} />
           <Agende id={"contato"} t={t} />
           <Cards t={t} />

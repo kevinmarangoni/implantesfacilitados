@@ -27,7 +27,7 @@ const Hero: React.FC<{ id: string; t: TranslationObject }> = ({ id, t }) => {
                 </LogoSection>
               <TitleSection>
                 <h1>{t.hero.title}</h1>
-                <p>{t.hero.description.part1}{" "}<span>{t.hero.description.part2}</span>{" "}{t.hero.description.part3}</p>
+                <p>{t.hero.description.part1}{" "}<span>{t.hero.description.part2}</span></p>
               </TitleSection>
               <LeftSection>
                 <ImageGallery images={images}/>

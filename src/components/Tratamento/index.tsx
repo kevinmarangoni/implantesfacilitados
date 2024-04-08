@@ -17,10 +17,10 @@ const Tratamento: React.FC<{id:string, t: TranslationObject}> = ({id, t}) => {
   <TeethIcon key={0}/>, 
   <ToothIcon key={1}/>, 
   <SyringeIcon key={2}/>, 
-  <InsuranceIcon key={3}/>,
+  <PreventionIcon key={3}/>,
   <PorcelainToothIcon key={4}/>,
   <SurgeryIcon key={5}/>,
-  <PreventionIcon key={6}/>,
+  <InsuranceIcon key={6}/>,
   <PlanningIcon key={7}/>,
 ]
 
