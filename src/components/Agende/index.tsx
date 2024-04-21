@@ -10,7 +10,7 @@ import InstagramIcon from '@/assets/icons/instagram'
 import { useRouter } from 'next/navigation'
 
 const Agende: React.FC<{ id: string, t: TranslationObject }> = ({ id, t }) => {
-  const locationUrl = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14611.33676329119!2d-46.5570809!3d-23.7176145!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce41adc5e289bf%3A0xc2790d572c5f0aeb!2sENDODONTIA%20FACILITADA%20%7C%20Cl%C3%ADnica%20de%20Endodontia%20Microsc%C3%B3pica!5e0!3m2!1spt-BR!2sbr!4v1706285751833!5m2!1spt-BR!2sbr"
+  const locationUrl = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7305.649060613859!2d-46.556562!3d-23.7179594!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce412405cc0c59%3A0xc596d8b9f76ef81c!2sIMPLANTE%20FACILITADO%20I%20Cl%C3%ADnica%20de%20Implantes%20Dent%C3%A1rios!5e0!3m2!1spt-BR!2sbr!4v1713716778729!5m2!1spt-BR!2sbr"
   const { color } = useTheme()
   const [fields, setFields] = useState({
     name: "",
@@ -20,7 +20,7 @@ const Agende: React.FC<{ id: string, t: TranslationObject }> = ({ id, t }) => {
   })
   const [text, setText] = useState("")
   const router = useRouter()
-  const number = 5511966717274
+  const number = 551143355335
 
   function updateFields(e: ChangeEvent<HTMLInputElement>){
     const actor = e.target.name

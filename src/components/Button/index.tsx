@@ -7,13 +7,13 @@ import { sendGTMEvent } from '@next/third-parties/google'
 
 const Button:React.FC<{children?:ReactNode, text?: string, isGoogleRelated?: boolean, $color?: string, onClickRun?: ()=>void}> = ({children, text, isGoogleRelated, $color, onClickRun}) => {
   const router = useRouter()
-  const number = 5511966717274
+  const number = 551143355335
 
   function handleRedirect(){
     let url = ''
     url = encodeURI(`https://api.whatsapp.com/send?phone=${number}&text=${text ? text : 'Olá, gostaria de mais informações para tratamento e/ou agendar uma avaliação.'}`)
     if(isGoogleRelated){
-      url = encodeURI(`https://www.google.com/maps/place/ENDODONTIA+FACILITADA+%7C+Clínica+de+Endodontia+Microscópica/@-23.7176145,-46.5570809,17z/data=!4m8!3m7!1s0x94ce41adc5e289bf:0xc2790d572c5f0aeb!8m2!3d-23.7176145!4d-46.5570809!9m1!1b1!16s%2Fg%2F11s85x37wk?entry=ttu`)
+      url = encodeURI(`https://www.google.com/maps/place/IMPLANTE+FACILITADO+I+Clínica+de+Implantes+Dentários/@-23.7179594,-46.556562,16z/data=!4m6!3m5!1s0x94ce412405cc0c59:0xc596d8b9f76ef81c!8m2!3d-23.7176145!4d-46.5570809!16s%2Fg%2F11vy_g08xj?hl=pt-BR&entry=ttu`)
     }
     router.push(url)
   }

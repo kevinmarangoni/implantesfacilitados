@@ -8,9 +8,6 @@ import Hero from '@/components/Hero'
 import SobreNos from '@/components/SobreNos'
 import Tratamento from '@/components/Tratamento'
 import styled from 'styled-components'
-
-import { sendGTMEvent } from '@next/third-parties/google'
-
 import useTranslation from '@/translation'
 import Header from '@/components/Header'
 import { useEffect, useState } from 'react'

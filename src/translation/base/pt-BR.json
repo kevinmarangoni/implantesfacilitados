@@ -69,7 +69,7 @@
             },
             {
                 "title": "Cirurgia Guiada",
-                "text": "Meu irmão vai bolar um texto então não se preocupe, pode usar chatgpt.",
+                "text": "É um método avançado que usa imagens 3D para posicionar implantes dentários com precisão milimétrica, resultando em menor invasão, recuperação mais rápida e melhores resultados estéticos e funcionais.",
                 "button": "Saiba mais",
                 "redirectText": "Olá, poderia me explicar mais sobre a Cirurgia Guiada?"
             },
@@ -81,7 +81,7 @@
             },
             {
                 "title": "Planejamento e Fluxo Digital",
-                "text": "Meu irmão vai bolar um texto então não se preocupe, pode usar chatgpt.",
+                "text": "Usa tecnologia de imagem 3D para projetar a colocação precisa de implantes dentários, personalizando o tratamento para cada paciente e garantindo resultados melhores e mais previsíveis.",
                 "button": "Saiba mais",
                 "redirectText": "Olá, como funciona a Planejamento e Fluxo Digital?"
             }
@@ -191,7 +191,7 @@
         "contact": {
             "title": "Contato"
         },
-        "rights": "Copyright 2023 © Implante Facilitado - Todos os direitos reservados.",
+        "rights": "Copyright 2024 © Implante Facilitado - Todos os direitos reservados.",
         "made_by": "Feito por"
     }
 }

@@ -11,11 +11,12 @@ const Hero: React.FC<{ id: string; t: TranslationObject }> = ({ id, t }) => {
   const { width } = useWindowSize();
 
   const images = [
-    `https://iili.io/JOgDXa4.jpg`,
-    `https://iili.io/JOgD0ZX.jpg`,
-    `https://iili.io/JOgDWFf.jpg`,
-    `https://iili.io/JOgDGGs.jpg`,
-    `https://iili.io/JOgDEnn.jpg`
+    `https://iili.io/JSoIOmX.png`,
+    `https://iili.io/JSoIXgp.png`,
+    `https://iili.io/JSoIjdN.png`,
+    `https://iili.io/JSoIw7I.png`,
+    `https://iili.io/JSoIa5P.png`,
+    `https://iili.io/JSoINet.png`,
   ];
 
   return (
@@ -113,17 +114,17 @@ const TitleSection = styled.div`
   }
 
   p {
+    font-weight: ${({ theme }) => theme.sizes.weights.bolder};
     font-size: ${({ theme }) => theme.sizes.font.paragraph.lg};
-    font-weight: ${({ theme }) => theme.sizes.weights.normal};
-
+    
     @media (${({ theme }) => theme.sizes.breakpoints.smartphone}) {
       font-size: ${({ theme }) => theme.sizes.font.paragraph.md};
     }
   }
-
+  
   span {
+    font-weight: ${({ theme }) => theme.sizes.weights.normal}; 
     font-size: ${({ theme }) => theme.sizes.font.paragraph.lg};
-    font-weight: ${({ theme }) => theme.sizes.weights.bolder};
 
     @media (${({ theme }) => theme.sizes.breakpoints.smartphone}) {
       font-size: ${({ theme }) => theme.sizes.font.paragraph.md};
